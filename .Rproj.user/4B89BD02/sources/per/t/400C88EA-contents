@@ -1,8 +1,5 @@
 pacman::p_load(jsonlite, data.table, plyr, tidyverse)
 
-## me ubico en la carpeta "Data"
-setwd("C:/Users/italo/Dropbox/soccer analytics/data")
-
 torneos <- gsub("data/","",list.dirs("data",recursive = FALSE)) 
 
 df_torneos   <- NULL
@@ -19,11 +16,11 @@ df_var       <- NULL
 df_managers  <- NULL
 
 for(torneo in torneos){ #recorro los torneos
-  partidos <- list.files(paste0("./",torneo,"/Partidos"),".json")
+  partidos <- list.files(paste0("data/",torneo,"/Partidos"),".json")
   npartidos <- length(partidos)
   
   for (i in 1:npartidos){  #recorro los partidos del torneo
-    partidoi <- read_json(paste0(getwd(),"/",torneo,"/Partidos/",partidos[i])) ## leo el partido i
+    partidoi <- read_json(paste0("/data/",torneo,"/Partidos/",partidos[i])) ## leo el partido i
     
     ## extrae datos del partido
     matchinfo <- partidoi$matchInfo
@@ -165,5 +162,5 @@ df_tiempos[,8:ncol(df_tiempos)] <- sapply(df_tiempos[,8:ncol(df_tiempos)],as.num
 
 
 ## guardo datos procesados
-save.image("modelo_de_datos.RData")
+save.image("data/modelo_de_datos.RData")
 
