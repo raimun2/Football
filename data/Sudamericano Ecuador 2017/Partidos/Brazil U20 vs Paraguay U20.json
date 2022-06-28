@@ -1,0 +1,749 @@
+{
+    "matchInfo": {
+        "id": "6659ay9sg714bpx67tmuiakmh",
+        "coverageLevel": "9",
+        "date": "2017-01-22Z",
+        "time": "19:45:00Z",
+        "week": "3",
+        "lastUpdated": "2020-02-07T10:45:40Z",
+        "description": "Brazil U20 vs Paraguay U20",
+        "sport": {
+            "id": "289u5typ3vp4ifwh5thalohmq",
+            "name": "Soccer"
+        },
+        "ruleset": {
+            "id": "35ld7tk5hxf5rfp44lpy0ymbq",
+            "name": "Youth"
+        },
+        "competition": {
+            "id": "1lxer8rysniom522w3vvz45em",
+            "name": "Sudamericano U20",
+            "competitionCode": "SUU",
+            "competitionFormat": "International cup",
+            "country": {
+                "id": "7ygvdgl31hirp07yeye1tvsut",
+                "name": "South America"
+            }
+        },
+        "tournamentCalendar": {
+            "id": "c1py6kyvyl2iz2jd3mpb80ru1",
+            "startDate": "2017-01-18Z",
+            "endDate": "2017-02-12Z",
+            "name": "2017 Ecuador"
+        },
+        "stage": {
+            "id": "5besg4k9rrafgvtolum6b8m8n",
+            "formatId": "86p6pz5rcsdbz4cklvfwtzrv9",
+            "startDate": "2017-01-18Z",
+            "endDate": "2017-01-28Z",
+            "name": "Group Stage"
+        },
+        "series": {
+            "id": "dyvcoc05nfgx2rswh43m3mgyg",
+            "name": "Group A"
+        },
+        "contestant": [
+            {
+                "id": "8j5t166ehedg5j7cule0gvctw",
+                "name": "Brazil U20",
+                "shortName": "Brazil",
+                "officialName": "Brazil Under 20",
+                "code": "BRA",
+                "position": "home",
+                "country": {
+                    "id": "2vufyvpoxd9lfl9f6vpp7tz6y",
+                    "name": "Brazil"
+                }
+            },
+            {
+                "id": "4regxj1097bvl2ktj8nmnb32i",
+                "name": "Paraguay U20",
+                "shortName": "Paraguay",
+                "officialName": "Paraguay Under 20",
+                "code": "PAR",
+                "position": "away",
+                "country": {
+                    "id": "4snnlul02xmgkkb024q2bqyn9",
+                    "name": "Paraguay"
+                }
+            }
+        ],
+        "venue": {
+            "id": "72r9oryi1ey2t85ki262bhpx5",
+            "neutral": "no",
+            "longName": "Estadio Bellavista de Ambato",
+            "shortName": "Estadio Bellavista de Ambato"
+        }
+    },
+    "liveData": {
+        "matchDetails": {
+            "periodId": 14,
+            "matchStatus": "Played",
+            "winner": "home",
+            "matchLengthMin": 94,
+            "matchLengthSec": 57,
+            "period": [
+                {
+                    "id": 1,
+                    "start": "2017-01-22T19:47:02Z",
+                    "end": "2017-01-22T20:33:57Z",
+                    "lengthMin": 46,
+                    "lengthSec": 55
+                },
+                {
+                    "id": 2,
+                    "start": "2017-01-22T20:50:15Z",
+                    "end": "2017-01-22T21:38:17Z",
+                    "lengthMin": 48,
+                    "lengthSec": 2
+                }
+            ],
+            "scores": {
+                "ht": {
+                    "home": 1,
+                    "away": 0
+                },
+                "ft": {
+                    "home": 3,
+                    "away": 2
+                },
+                "total": {
+                    "home": 3,
+                    "away": 2
+                }
+            }
+        },
+        "goal": [
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "periodId": 1,
+                "timeMin": 39,
+                "lastUpdated": "2019-07-31T11:54:19Z",
+                "type": "G",
+                "scorerId": "1d57az0nmca33zgcta21912p5",
+                "scorerName": "Matheus Savio",
+                "optaEventId": "1479591655",
+                "homeScore": 1,
+                "awayScore": 0
+            },
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "periodId": 2,
+                "timeMin": 57,
+                "lastUpdated": "2017-09-21T08:51:45Z",
+                "type": "G",
+                "scorerId": "c5zmr0m17riujelm4up44etih",
+                "scorerName": "Richarlison",
+                "assistPlayerId": "rw149z7fsd9qncl7lif597u1",
+                "assistPlayerName": "Felipe Vizeu",
+                "optaEventId": "304355609",
+                "homeScore": 2,
+                "awayScore": 0
+            },
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "periodId": 2,
+                "timeMin": 65,
+                "lastUpdated": "2019-04-18T11:46:35Z",
+                "type": "G",
+                "scorerId": "rw149z7fsd9qncl7lif597u1",
+                "scorerName": "Felipe Vizeu",
+                "assistPlayerId": "997s9pmavupl0rgqj3u2kh59l",
+                "assistPlayerName": "Léo Jabá",
+                "optaEventId": "1596099447",
+                "homeScore": 3,
+                "awayScore": 0
+            },
+            {
+                "contestantId": "4regxj1097bvl2ktj8nmnb32i",
+                "periodId": 2,
+                "timeMin": 80,
+                "lastUpdated": "2019-05-15T08:46:10Z",
+                "type": "PG",
+                "scorerId": "dh3r6osyxipq0iqt4e8yoiac5",
+                "scorerName": "J. Medina",
+                "optaEventId": "2057201838",
+                "homeScore": 3,
+                "awayScore": 1
+            },
+            {
+                "contestantId": "4regxj1097bvl2ktj8nmnb32i",
+                "periodId": 2,
+                "timeMin": 91,
+                "lastUpdated": "2019-05-15T08:46:10Z",
+                "type": "G",
+                "scorerId": "dh3r6osyxipq0iqt4e8yoiac5",
+                "scorerName": "J. Medina",
+                "assistPlayerId": "ahd6q5p0bfqc1lmh5oh3sl7ft",
+                "assistPlayerName": "M. Villasanti",
+                "optaEventId": "1729238066",
+                "homeScore": 3,
+                "awayScore": 2
+            }
+        ],
+        "card": [
+            {
+                "contestantId": "4regxj1097bvl2ktj8nmnb32i",
+                "periodId": 1,
+                "timeMin": 37,
+                "lastUpdated": "2020-01-08T18:25:55Z",
+                "type": "YC",
+                "playerId": "6abfo6l4d0cfltm2nfyz1ysbt",
+                "playerName": "P. Meza",
+                "optaEventId": "1866068193",
+                "cardReason": "Foul"
+            },
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "periodId": 1,
+                "timeMin": 47,
+                "lastUpdated": "2019-12-19T17:42:09Z",
+                "type": "YC",
+                "playerId": "1o7se1aziz6fpes5hey7yijft",
+                "playerName": "Caio Henrique",
+                "optaEventId": "793950740",
+                "cardReason": "Foul"
+            },
+            {
+                "contestantId": "4regxj1097bvl2ktj8nmnb32i",
+                "periodId": 2,
+                "timeMin": 59,
+                "lastUpdated": "2018-10-09T16:59:16Z",
+                "type": "RC",
+                "playerId": "d7jx8nrrx152oh9ul7ofaon3d",
+                "playerName": "J. Villalba",
+                "optaEventId": "1548401396",
+                "cardReason": "Foul"
+            },
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "periodId": 2,
+                "timeMin": 77,
+                "lastUpdated": "2019-03-03T16:47:30Z",
+                "type": "YC",
+                "playerId": "2eavcz1561d4v27z6e9gzll2h",
+                "playerName": "Maycon",
+                "optaEventId": "1072893868",
+                "cardReason": "Foul"
+            },
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "periodId": 2,
+                "timeMin": 79,
+                "lastUpdated": "2019-10-23T22:31:54Z",
+                "type": "YC",
+                "playerId": "7j84ozqdpgupzxevbxemi5tyh",
+                "playerName": "Douglas Luiz",
+                "optaEventId": "267133760",
+                "cardReason": "Foul"
+            }
+        ],
+        "substitute": [
+            {
+                "contestantId": "4regxj1097bvl2ktj8nmnb32i",
+                "periodId": 1,
+                "timeMin": 14,
+                "lastUpdated": "2020-01-08T18:25:55Z",
+                "playerOnId": "5f5emdp0882ri1k6tcdw394a1",
+                "playerOnName": "J. Morel",
+                "playerOffId": "2vi0jnzpu8uxqpkdwo0xcl2p5",
+                "playerOffName": "C. Paredes",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "periodId": 2,
+                "timeMin": 59,
+                "lastUpdated": "2019-03-03T16:47:30Z",
+                "playerOnId": "2eavcz1561d4v27z6e9gzll2h",
+                "playerOnName": "Maycon",
+                "playerOffId": "1o7se1aziz6fpes5hey7yijft",
+                "playerOffName": "Caio Henrique",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "4regxj1097bvl2ktj8nmnb32i",
+                "periodId": 2,
+                "timeMin": 62,
+                "lastUpdated": "2019-04-04T13:01:52Z",
+                "playerOnId": "8m2uweyq8km60q256vlcqgkb9",
+                "playerOnName": "R. Prieto",
+                "playerOffId": "33m0ovpuaeox632lxuziccjc9",
+                "playerOffName": "G. Paiva",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "periodId": 2,
+                "timeMin": 66,
+                "lastUpdated": "2019-10-31T15:11:39Z",
+                "playerOnId": "7pi4j76iy3cfh0bfkxf9x8ell",
+                "playerOnName": "David Neres",
+                "playerOffId": "c5zmr0m17riujelm4up44etih",
+                "playerOffName": "Richarlison",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "periodId": 2,
+                "timeMin": 68,
+                "lastUpdated": "2018-01-04T14:58:47Z",
+                "playerOnId": "9yhauzfvv68l731gupb3uqmzt",
+                "playerOnName": "Artur",
+                "playerOffId": "rw149z7fsd9qncl7lif597u1",
+                "playerOffName": "Felipe Vizeu",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "4regxj1097bvl2ktj8nmnb32i",
+                "periodId": 2,
+                "timeMin": 71,
+                "lastUpdated": "2019-09-20T00:06:22Z",
+                "playerOnId": "93f3hv2xy86bu74tis20kb7xl",
+                "playerOnName": "R. Garay",
+                "playerOffId": "4jgosqqnk6gay7lhukdieq1nt",
+                "playerOffName": "M. Arce",
+                "subReason": "Tactical"
+            }
+        ],
+        "lineUp": [
+            {
+                "contestantId": "8j5t166ehedg5j7cule0gvctw",
+                "player": [
+                    {
+                        "playerId": "kjml1h4bguy54ymdzaw7u2uh",
+                        "firstName": "Caíque Luiz",
+                        "lastName": "Santos da Purificação",
+                        "matchName": "Caíque",
+                        "shirtNumber": 23,
+                        "position": "Goalkeeper",
+                        "positionSide": "Centre"
+                    },
+                    {
+                        "playerId": "cwe1vqu4hrfmxeo87h4srpyad",
+                        "firstName": "Guilherme",
+                        "lastName": "Arana Lopes",
+                        "matchName": "Guilherme Arana",
+                        "shirtNumber": 6,
+                        "position": "Defender",
+                        "positionSide": "Left"
+                    },
+                    {
+                        "playerId": "8libvn3hxypz8x7gm4mr7kj55",
+                        "firstName": "Gabriel",
+                        "lastName": "dos Santos Magalhães",
+                        "matchName": "Gabriel",
+                        "shirtNumber": 14,
+                        "position": "Defender",
+                        "positionSide": "Left/Centre"
+                    },
+                    {
+                        "playerId": "4c0k6hocnavvsura4k53jn6qx",
+                        "firstName": "Robson",
+                        "lastName": "Alves de Barros",
+                        "matchName": "Robson Bambu",
+                        "shirtNumber": 13,
+                        "position": "Defender",
+                        "positionSide": "Centre/Right"
+                    },
+                    {
+                        "playerId": "9e3t2wyjqzxsn690aysao8cfd",
+                        "firstName": "Domilson",
+                        "lastName": "Cordeiro dos Santos",
+                        "matchName": "Dodô",
+                        "shirtNumber": 2,
+                        "position": "Defender",
+                        "positionSide": "Right"
+                    },
+                    {
+                        "playerId": "7j84ozqdpgupzxevbxemi5tyh",
+                        "firstName": "Douglas Luiz",
+                        "lastName": "Soares de Paulo",
+                        "matchName": "Douglas Luiz",
+                        "shirtNumber": 8,
+                        "position": "Defensive Midfielder",
+                        "positionSide": "Left/Centre"
+                    },
+                    {
+                        "playerId": "1o7se1aziz6fpes5hey7yijft",
+                        "firstName": "Caio Henrique",
+                        "lastName": "Oliveira Silva",
+                        "matchName": "Caio Henrique",
+                        "shirtNumber": 7,
+                        "position": "Defensive Midfielder",
+                        "positionSide": "Centre/Right"
+                    },
+                    {
+                        "playerId": "c5zmr0m17riujelm4up44etih",
+                        "firstName": "Richarlison",
+                        "lastName": "de Andrade",
+                        "matchName": "Richarlison",
+                        "shirtNumber": 18,
+                        "position": "Attacking Midfielder",
+                        "positionSide": "Left/Centre"
+                    },
+                    {
+                        "playerId": "1d57az0nmca33zgcta21912p5",
+                        "firstName": "Matheus",
+                        "lastName": "Goncalve Savio",
+                        "matchName": "Matheus Savio",
+                        "shirtNumber": 20,
+                        "position": "Attacking Midfielder",
+                        "positionSide": "Centre"
+                    },
+                    {
+                        "playerId": "997s9pmavupl0rgqj3u2kh59l",
+                        "firstName": "Leonardo",
+                        "lastName": "Rodrigues Lima",
+                        "matchName": "Léo Jabá",
+                        "shirtNumber": 19,
+                        "position": "Attacking Midfielder",
+                        "positionSide": "Centre/Right"
+                    },
+                    {
+                        "playerId": "rw149z7fsd9qncl7lif597u1",
+                        "firstName": "Felipe",
+                        "lastName": "dos Reis Pereira Vizeu do Carmo",
+                        "matchName": "Felipe Vizeu",
+                        "shirtNumber": 9,
+                        "position": "Striker",
+                        "positionSide": "Centre"
+                    },
+                    {
+                        "playerId": "9wfq40smkm4f3gockju3p67l5",
+                        "firstName": "Giovanny",
+                        "lastName": "Bariani Marques",
+                        "matchName": "Giovanny",
+                        "shirtNumber": 21,
+                        "position": "Substitute",
+                        "subPosition": "Attacker"
+                    },
+                    {
+                        "playerId": "dve7yj8usejn9x7pmdjvozje1",
+                        "firstName": "Lucas",
+                        "lastName": "Estella Perri",
+                        "matchName": "Lucas Perri",
+                        "shirtNumber": 1,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper"
+                    },
+                    {
+                        "playerId": "9yhauzfvv68l731gupb3uqmzt",
+                        "firstName": "Artur Victor",
+                        "lastName": "Guimarães",
+                        "matchName": "Artur",
+                        "shirtNumber": 22,
+                        "position": "Substitute",
+                        "subPosition": "Attacker"
+                    },
+                    {
+                        "playerId": "7pi4j76iy3cfh0bfkxf9x8ell",
+                        "firstName": "David",
+                        "lastName": "Neres Campos",
+                        "matchName": "David Neres",
+                        "shirtNumber": 11,
+                        "position": "Substitute",
+                        "subPosition": "Attacker"
+                    },
+                    {
+                        "playerId": "4vis4wltntxil2m9z16mi6j8p",
+                        "firstName": "Rogério",
+                        "lastName": "Oliveira da Silva",
+                        "matchName": "Rogério",
+                        "shirtNumber": 16,
+                        "position": "Substitute",
+                        "subPosition": "Defender"
+                    },
+                    {
+                        "playerId": "6dra3ggchmux8b99amxuf4vs9",
+                        "firstName": "Allan",
+                        "lastName": "Rodrigues de Souza",
+                        "matchName": "Allan",
+                        "shirtNumber": 5,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder"
+                    },
+                    {
+                        "playerId": "9i1n0wl49q3swmwb582a6vg15",
+                        "firstName": "Leonardo",
+                        "lastName": "Rodrigues dos Santos",
+                        "matchName": "Léo Santos",
+                        "shirtNumber": 15,
+                        "position": "Substitute",
+                        "subPosition": "Defender"
+                    },
+                    {
+                        "playerId": "cnk0gieusehanm3rhjkv5c7ah",
+                        "firstName": "Cleiton",
+                        "lastName": "Schwengber",
+                        "matchName": "Cleiton",
+                        "shirtNumber": 12,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper"
+                    },
+                    {
+                        "playerId": "at7mm2zrj2hjhu4bnq1f9noix",
+                        "firstName": "Lucas",
+                        "lastName": "Tolentino Coelho de Lima",
+                        "matchName": "Lucas Paquetá",
+                        "shirtNumber": 10,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder"
+                    },
+                    {
+                        "playerId": "2eavcz1561d4v27z6e9gzll2h",
+                        "firstName": "Maycon",
+                        "lastName": "de Andrade Barberan",
+                        "matchName": "Maycon",
+                        "shirtNumber": 17,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder"
+                    }
+                ],
+                "teamOfficial": {
+                    "id": "9cind8oj6yitunlc2zmamaklx",
+                    "firstName": "Mário Rogério",
+                    "lastName": "Reis Micale",
+                    "type": "manager"
+                }
+            },
+            {
+                "contestantId": "4regxj1097bvl2ktj8nmnb32i",
+                "player": [
+                    {
+                        "playerId": "1ltc2c0x81g0s593gf6h45ucp",
+                        "firstName": "Marino Osmar",
+                        "lastName": "Arzamendia Espinoza",
+                        "matchName": "M. Arzamendia",
+                        "shirtNumber": 22,
+                        "position": "Goalkeeper",
+                        "positionSide": "Centre"
+                    },
+                    {
+                        "playerId": "b0ip5jlx3ye09wnynnndyccmh",
+                        "firstName": "Blás Miguel",
+                        "lastName": "Riveros Galeano",
+                        "matchName": "B. Riveros",
+                        "shirtNumber": 4,
+                        "position": "Defender",
+                        "positionSide": "Left"
+                    },
+                    {
+                        "playerId": "6abfo6l4d0cfltm2nfyz1ysbt",
+                        "firstName": "Pablo Fabián",
+                        "lastName": "Meza Marmolejo",
+                        "matchName": "P. Meza",
+                        "shirtNumber": 23,
+                        "position": "Defender",
+                        "positionSide": "Left/Centre"
+                    },
+                    {
+                        "playerId": "4jgosqqnk6gay7lhukdieq1nt",
+                        "firstName": "Marcelo Javier",
+                        "lastName": "Arce Insfrán",
+                        "matchName": "M. Arce",
+                        "shirtNumber": 3,
+                        "position": "Defender",
+                        "positionSide": "Centre/Right"
+                    },
+                    {
+                        "playerId": "bpn4bhkq4yzzg507dpol6ggdl",
+                        "firstName": "Rodi David",
+                        "lastName": "Ferreira",
+                        "matchName": "R. Ferreira",
+                        "shirtNumber": 2,
+                        "position": "Defender",
+                        "positionSide": "Right"
+                    },
+                    {
+                        "playerId": "dh3r6osyxipq0iqt4e8yoiac5",
+                        "firstName": "Jesús Manuel",
+                        "lastName": "Medina Maldonado",
+                        "matchName": "J. Medina",
+                        "shirtNumber": 11,
+                        "position": "Midfielder",
+                        "positionSide": "Left"
+                    },
+                    {
+                        "playerId": "ahd6q5p0bfqc1lmh5oh3sl7ft",
+                        "firstName": "Mathías Adalberto",
+                        "lastName": "Villasanti Rolón",
+                        "matchName": "M. Villasanti",
+                        "shirtNumber": 18,
+                        "position": "Midfielder",
+                        "positionSide": "Left/Centre"
+                    },
+                    {
+                        "playerId": "2vi0jnzpu8uxqpkdwo0xcl2p5",
+                        "firstName": "Cristhian Fabián",
+                        "lastName": "Paredes Maciel",
+                        "matchName": "C. Paredes",
+                        "shirtNumber": 6,
+                        "position": "Midfielder",
+                        "positionSide": "Centre/Right"
+                    },
+                    {
+                        "playerId": "33m0ovpuaeox632lxuziccjc9",
+                        "firstName": "Guillermo Miguel",
+                        "lastName": "Paiva Ayala",
+                        "matchName": "G. Paiva",
+                        "shirtNumber": 16,
+                        "position": "Midfielder",
+                        "positionSide": "Right"
+                    },
+                    {
+                        "playerId": "62gy76vhmyxy2hfuql8cu7kdl",
+                        "firstName": "Carlos Sebastián",
+                        "lastName": "Ferreira Vidal",
+                        "matchName": "S. Ferreira",
+                        "shirtNumber": 19,
+                        "position": "Striker",
+                        "positionSide": "Left/Centre"
+                    },
+                    {
+                        "playerId": "d7jx8nrrx152oh9ul7ofaon3d",
+                        "firstName": "Julio César",
+                        "lastName": "Villalba Gaona",
+                        "matchName": "J. Villalba",
+                        "shirtNumber": 7,
+                        "position": "Striker",
+                        "positionSide": "Centre/Right"
+                    },
+                    {
+                        "playerId": "coyys1vcm215tfu7cfn6a4qg9",
+                        "firstName": "Óscar David",
+                        "lastName": "Benítez Leguizamón",
+                        "matchName": "Ó. Benítez",
+                        "shirtNumber": 1,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper"
+                    },
+                    {
+                        "playerId": "604qnx0kf01s63uq20drqsezt",
+                        "firstName": "Rodrigo Manuel",
+                        "lastName": "Bogarín Giménez",
+                        "matchName": "R. Bogarín",
+                        "shirtNumber": 15,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder"
+                    },
+                    {
+                        "playerId": "8m9cl9k4ilaox7l661m3jij8p",
+                        "firstName": "Pedro Federico",
+                        "lastName": "Báez Benítez",
+                        "matchName": "P. Báez",
+                        "shirtNumber": 9,
+                        "position": "Substitute",
+                        "subPosition": "Attacker"
+                    },
+                    {
+                        "playerId": "73jj4h2gzrnpqeir93n3vwfe1",
+                        "firstName": "David Josué",
+                        "lastName": "Colmán Escobar",
+                        "matchName": "J. Colmán",
+                        "shirtNumber": 10,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder"
+                    },
+                    {
+                        "playerId": "cz0c3cyt8s5y0vdobfrq8q2uh",
+                        "firstName": "Richard Marcelo",
+                        "lastName": "Escobar Chena",
+                        "matchName": "R. Escobar",
+                        "shirtNumber": 13,
+                        "position": "Substitute",
+                        "subPosition": "Defender"
+                    },
+                    {
+                        "playerId": "8xi2jix5blihdgfhxv9ptip5",
+                        "firstName": "Leandro Joaquín",
+                        "lastName": "Flecha Konopka",
+                        "matchName": "L. Flecha",
+                        "shirtNumber": 17,
+                        "position": "Substitute",
+                        "subPosition": "Attacker"
+                    },
+                    {
+                        "playerId": "93f3hv2xy86bu74tis20kb7xl",
+                        "firstName": "Ricardo",
+                        "lastName": "Garay Lima",
+                        "matchName": "R. Garay",
+                        "shirtNumber": 14,
+                        "position": "Substitute",
+                        "subPosition": "Defender"
+                    },
+                    {
+                        "playerId": "5f5emdp0882ri1k6tcdw394a1",
+                        "firstName": "Jorge Emanuel",
+                        "lastName": "Morel Barrios",
+                        "matchName": "J. Morel",
+                        "shirtNumber": 8,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder"
+                    },
+                    {
+                        "playerId": "5bqvwemf27fi23u80obovv36x",
+                        "firstName": "Fabio Gabriel",
+                        "lastName": "Morán Rolón",
+                        "matchName": "F. Morán",
+                        "shirtNumber": 12,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper"
+                    },
+                    {
+                        "playerId": "8m2uweyq8km60q256vlcqgkb9",
+                        "firstName": "Richard Fabián",
+                        "lastName": "Prieto",
+                        "matchName": "R. Prieto",
+                        "shirtNumber": 20,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder"
+                    },
+                    {
+                        "playerId": "h4vl9czff49rlz8yi6dx9gix",
+                        "firstName": "Sergio Gustavo",
+                        "lastName": "Ávalos Pintos",
+                        "matchName": "S. Ávalos",
+                        "shirtNumber": 21,
+                        "position": "Substitute",
+                        "subPosition": "Defender"
+                    }
+                ],
+                "teamOfficial": {
+                    "id": "4dsuyuh42i6yvmsoghw8lppzp",
+                    "firstName": "Pedro Alcídes",
+                    "lastName": "Sarabia Achucarro",
+                    "type": "manager"
+                }
+            }
+        ],
+        "matchDetailsExtra": {
+            "matchOfficial": [
+                {
+                    "id": "1vhvjtv66mqo52tpb6dbbkj4l",
+                    "type": "Main",
+                    "firstName": "Darío",
+                    "lastName": "Herrera"
+                },
+                {
+                    "id": "80fhl8xk1gu2a15anqtu1vxlh",
+                    "type": "Lineman 1",
+                    "firstName": "Diego Yamil",
+                    "lastName": "Bonfá"
+                },
+                {
+                    "id": "1lplkkb81854ldurrx7agf2z9",
+                    "type": "Lineman 2",
+                    "firstName": "Cristian",
+                    "lastName": "Navarro"
+                },
+                {
+                    "id": "1ma5232gwtqgxbf7hxst2tkut",
+                    "type": "Fourth official",
+                    "firstName": "José Luis",
+                    "lastName": "Hoyo Mateus"
+                }
+            ]
+        }
+    }
+}

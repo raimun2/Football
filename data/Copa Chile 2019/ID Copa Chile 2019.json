@@ -1,0 +1,94 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 29 21:39:46 2020
+
+@author: Casa
+"""
+"""Id Partidos Copa Chile 2019:
+
+Primera Fase: {
+        Trasandino-San Luis: [12s4ybhfx2g1fo20xn2bjyp2i]
+        San Antonio Unido-La Serena: [12w6n9i728bivevtl0o44b88a]
+        Colina-Santiago Morning: [132ac7xp5iezo6ggjnuce92ei]
+        Deportes Rengo-Barnechea: [137fng0jgi2wfgumielr9ayju]
+        Deportes Vallenar-Copiapó: [12o5srelykkso1bjia5tey8oa]
+        Iberia-Ñublense: [141dxge0x8pqrgd1v4bl45i0a]
+        Fernández Vial-Deportes Temuco: [13uqkoyna4fzyf8a4f3j1yvsa]
+        Provincial Osorno-Puerto Montt: [148q91phnikx4j9igfiul7eju]
+        San Marcos-Cobreloa: [12iwn4ar3tx6qdyo5oojxl9wq]
+        Recoleta-Unión San Felipe: [13ebxot5tswk3rlq0x4yh520a]
+        Lautaro de Buin-Melipilla: [13hy6i6472k348ddvavsnm3je]
+        General Velásquez-Magallanes: [13l98o2gol9gkqte5mq8r63je]
+        Colchagua-Deportes Santa Cruz: [13odzgh7ds7ibhpgahtebgbqi]
+        Independiente-Rangers: [13rcs4a1gx5fpuhyjfhlkf2i2]
+        Concepción-Santiago Wanderers: [13y6a91vcobh4dww8llf8ll62]
+        Pilmahue-Deportes Valdivia: [144nlz3trsi2jlooibh1uo8dm]
+        }
+Segunda Fase: {
+        San Marcos-Deportes Iquique: [4ksx12w6d7kf1yvyzgyub4ne2]
+        Deportes Iquique-San Marcos: [dza9iomhr4agzdjiq56hjh08a]
+        Palestino-Santiago Morning: [dzs05kzlliuaq3fwlfmhdr816]
+        Trasandino-Everton: [4l191l73xuj1f1vyy8acngkfe]
+        Rangers-Universidad de Chile: [4l4fn4kmc0ps1522ifqvm94ru]
+        Magallanes-Unión La Calera: [4l7pf9nozuy6xuh06wmr042ne]
+        Melipilla-Unión Española: [4leh4c9xakqjxhkunqwevc38q]
+        Santiago Wanderers-Audax Italiano: [4lirk5bwu9l7b4ki136cmdxt6]
+        Deportes Vallenar-Cobresal: [4ln1yafgduzoatqzur6fw3t62]
+        Deportes Santa Cruz-O'Higgins: [4lqwjair1qjc6x0x3akvq6h62]
+        La Serena-Universidad Católica: [4lva1edoh9n28m1gwl2j4oley]
+        Barnechea-Deportivo Antofagasta: [4kxuixh44fbz4xiu0sh9zrpt6]
+        Deportes Temuco-Huachipato: [4mgyheydkbjz3p83gmxag0rca]
+        Unión San Felipe-Coquimbo Unido: [4lzwdvdhle3v08i78enws4y96]
+        Puerto Montt-Colo Colo: [4m4lsgzhbhc6frbtayl3zgm0a]
+        Santiago Morning-Palestino: [4lbeapgk4luz4ab3ral43ppwq]
+        Ñublense-Curicó Unido: [4mcnns3x85unnbu1xwxl3o48a]
+        Deportes Valdivia-Universidad Concepción: [4m97o1g8a9zflp05cypp3aooa]
+        Audax Italiano-Santiago Wanderers: [dzz4is33nw1r6izsyyhv46icq]
+        Universidad de Chile-Rangers: [dzm2mnsuqj6igynpqsm7zxai2]
+        Universidad Concepción-Deportes Valdivia: [e0m23wu1mxygu602jn56grjai]
+        O'Higgins-Deportes Santa Cruz: [e02klfpzqolps7mlaspkjee7e]
+        Curicó Unido-Ñublense: [e0qagksjoloqpvpyz2yrc1jsa]
+        Deportivo Antofagasta-Barnechea: [dzeqdxytgfs41jrzriydzc38q]
+        Unión La Calera-Magallanes:[dzp3ixzczk389yhc2a0er2zca]
+        Coquimbo Unido-Unión San Felipe: [e0ekjp1aomw7gvovj0coh6oh6]
+        Colo Colo-Puerto Montt: [e0i1dqv562mbghcp0v4wslpwq]
+        Everton-Trasandino: [dzindvjp85uziwvmc25m7pnje]
+        Huachipato-Deportes Temuco: [e0urjmprzw5h5edt5o971nqei]
+        Cobresal-Deportes Vallenar: [e06sd2fkj27efu06hbqm70zfu]
+        Universidad Católica-La Serena: [e0b8ym28yzcahsrtuwxgvgiui]
+        Unión Española-Melipilla: [dzvrdpeu7tqneick2aqd0za7e]        
+        }
+Octavos de final: {
+        Everton-O'Higgins: [2xu2hosv7qsgluk34oh6womzu]
+        Unión Española-Deportes Valdivia: [2ya3sff5ngssnjb14yys22gkq]
+        Deportes Valdivia-Unión Española: [2yfvz8gc2a305oh23e2wf8g2y]
+        Audax Italiano-Unión San Felipe: [2ymtgd6tmsdnokgqgz68lwgve]
+        Deportes Iquique-Cobresal: [2yv2anv5p73dwcvj0lcwyrnmy]
+        Deportes Temuco-Universidad de Chile: [2ziyxjbp4ca2jvly7but5a5be]
+        Unión La Calera-Ñublense: [2zxde2pweefbvr3kidf2py8ve]
+        Colo Colo-Barnechea: [305zwpk8dd10twvhbdjjfesfe]
+        Santiago Morning-Universidad Católica: [2z6j3gk787kdwlg64i7vj6s16]
+        Unión San Felipe-Audax Italiano: [2yqopkw7v59u4cnlu281cvfxm]
+        Cobresal-Deportes Iquique: [2z1g0tnygl794mtc25oa81y0a]
+        Universidad de Chile-Deportes Temuco: [2zqr1fs0zrktkws4oujyyc8yy]
+        O'Higgins-Everton: [2y255r6yo5647ccm7qcn5n3hm]
+        Barnechea-Colo Colo: [309kcjyt20ci6vfscyfbzqsmi]
+        Ñublense-Unión La Calera: [300vbz13vy9taqunpvegq7iay]
+        Universidad Católica-Santiago Morning: [2zcg2x98xli4k6lgudqbzvsru]
+        }
+Cuartos de Final:{
+        Cobresal-Universidad de Chile: [bl5pur2w1yflohxucm81niwyy]
+        Colo Colo-Everton: [blc775giind033at3jik3tht6]
+        Unión La Calera-Universidad Católica: [blgm3ndty9d301iaz6w628dwq]
+        Audax Italiano-Unión Española: [blkctcfx27gq3us6iltldtbvu]
+        Universidad de Chile-Cobresal: [blrw3a20jfsw2wp9cjrvnksx6]
+        Everton-Colo Colo: [blumytq1qac7buu6e35vhp84q]
+        Unión Española-Audax Italiano: [blxjtb0n5ww1acjpd4t7mka5m]
+        Universidad Católica-Unión La Calera: [blp56rlxhwz1hwi5vvsaak6zu]
+        
+        }
+Semifinal: {
+        Universidad Católica-Colo Colo: [cipft78b95sywlvysi1vo9wtm]
+        Universidad de Chile-Unión Española: [cijo5y3qfbw5a100k7h0p49ka]
+        }
+Final: {Universidad de Chile-Colo Colo: [5f0z5z5eg34wbtqhmproe0mzu]}

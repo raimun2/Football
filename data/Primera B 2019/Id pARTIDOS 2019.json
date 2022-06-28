@@ -1,0 +1,926 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun May  3 12:00:19 2020
+
+@author: Casa
+"""
+"""
+Id Partidos Primera B 2019: 
+
+Fecha 1: {
+        Barnechea-Unión San Felipe: [2dgu0nppxbpl5wuehm9ihk2ga]
+        Magallanes-San Luis: [2dnmz90ba0pnq525sbyrbu6ay]
+        Santiago Morning-Melipilla: [2dttomtgtei7p3xtz0swzzjvu]
+        Puerto Montt-Ñublense: [2efqdcnwhvqh7nyqm62pqub8q]
+        Cobreloa-Deportes Temuco: [2eojdmiyz5hprec4wdp078xgq]
+        Santiago Wanderers-Rangers: [2e5s67hpxaj1a7qfeoe2aqv6y]
+        Copiapó-La Serena: [2d9xpxmww61ikwbxuggonauzu]
+        Deportes Valdivia-Deportes Santa Cruz: [2dzx35xkfxvvej7rtnl5zy4iy]
+        }
+Fecha 2: {
+        Deportes Temuco-San Luis: [2f2l3a0f1n7kipmhrkclradm2]
+        Barnechea-Puerto Montt: [2ft8i49hj2pfx06o3eyh2yu0a]
+        La Serena-Magallanes: [2f8ysr9v8hyx8zfo636qwarmy]
+        Melipilla-Cobreloa: [2etjw9xhd0y0m0bbdcyuvjaei]
+        Unión San Felipe-Deportes Valdivia: [2filc5mkx93zgr9kczfas412i]
+        Rangers-Copiapó: [2ey5mfl7g914eaqrfvq0zjxbe]
+        Ñublense-Santiago Morning: [2fdlmyo48ioi1ybngnco70ewa]
+        Deportes Santa Cruz-Santiago Wanderers: [2fnmobly9vm6xfoi0yjsc4rxm]
+        }
+Fecha 3: {
+        Santiago Wanderers-Deportes Temuco: [2haanzektgocpitxcexe3o3fu]
+        Santiago Morning-Unión San Felipe: [2g37xx68s9ote96smon907jhm]
+        Magallanes-Barnechea: [2g8k7uclfw08t30ik625f8v3e]
+        Puerto Montt-Deportes Santa Cruz: [2gkiy95nux4wtqbho0lv5d016]
+        San Luis-Ñublense: [2gz4cue42u7fewcq9rqfu2ezu]
+        Deportes Valdivia-La Serena: [2fxworbapzbgulzfyqjsrl0tm]
+        Copiapó-Melipilla: [2gdikutsl2grc69xuni1msei2]
+        Cobreloa-Rangers: [2grd06dce3sosvmgkpuldqfl6]
+        }
+Fecha 4: {
+        Barnechea-Deportes Santa Cruz: [2igwcwd182d4a981z3ra0c9d6]
+        La Serena-Cobreloa: [2hi056utlvhcd2ga5wmxmy0ru]
+        Melipilla-San Luis: [2hzqncb7kd0eo9m278zprit0q]
+        Magallanes-Puerto Montt: [2isybb8g7luqpa9tgb2u2ectm]
+        Rangers-Santiago Morning: [2iacjeegvq72x8b2kiv4xru5m]
+        Deportes Temuco-Copiapó: [2hreatiaddq0k1j1onutal6ju]
+        Unión San Felipe-Santiago Wanderers: [2i58ki4xabkuzb3m9iczfn4oa]
+        Ñublense-Deportes Valdivia: [2iltvklo6vy7a8ybjib4ikdbe]
+        }
+Fecha 5: {
+        Melipilla-Rangers: [2k9o5z1hxqzrxy7q587m2ulii]
+        Santiago Morning-Deportes Temuco: [2kf76qtbldk8zc6lfq6e9mkiy]
+        Puerto Montt-La Serena: [2j9yqfiih5hgzh5p7acsbzrsa]
+        San Luis-Santiago Wanderers: [2jpjc2n02e525izcndlk3ip2i]
+        Deportes Santa Cruz-Unión San Felipe: [2jina02w0kvuyn8cniqq0xf1m]
+        Cobreloa-Copiapó: [2j11ftq59bmd2996bvetcrucq]
+        Ñublense-Magallanes: [2jxoksmtf5kn54h9n63ajhlka]
+        Deportes Valdivia-Barnechea: [2k4dscy3hwigh4r49q9sio8dm]
+        }
+Fecha 6: {
+        Deportes Temuco-Melipilla: [2lkxjqiidr0p8okw25ev8c0oa]
+        Magallanes-Deportes Santa Cruz: [2lt02j092opicxjuvxeqwq7vu]
+        Rangers-Ñublense: [2m1l5afvd9nn3b2l3sdz8mwkq]
+        Puerto Montt-Santiago Morning: [2l1ukfika6h6e5xy937ejep9m]
+        Copiapó-Barnechea: [2lcltjwebiiu6aoyg7djf1yzu]
+        Santiago Wanderers-Deportes Valdivia: [2m774z6m5w5gd8l0adfplpiei]
+        La Serena-San Luis: [2kw8ejl6k57xxbbxiy4w19ega]
+        Unión San Felipe-Cobreloa: [2kochi6zwl6lh5w0nyrjxoiui]
+        }
+Fecha 7: {
+        Barnechea-La Serena: [2milj7tzrm2wdnd89wldd9hm2]
+        Deportes Santa Cruz-Deportes Temuco: [2nmlqe35jhgxwv7jyagm210fe]
+        Santiago Morning-Copiapó: [2mcuyi17jh0su36bxouacvy3u]
+        San Luis-Unión San Felipe: [2mq18z4cu1g789vdt477n09d6]
+        Deportes Valdivia-Rangers: [2ndsr1aop76kk6kqsix6w2v6y]
+        Ñublense-Santiago Wanderers: [2mxhj93dc4hfaipshkxwtnk2y]
+        Melipilla-Magallanes: [2n58v0w9hpu4rzv9pj093qxd6]
+        Cobreloa-Puerto Montt: [2nvd2htoypc9w8z8q5w54hpbe]
+        }
+Fecha 8: {
+        Deportes Temuco-Barnechea: [2oje34r02xs8hs1qcnd7jeusq]
+        Unión San Felipe-Melipilla: [2os41e1tyi8f7ibryzw5qzhpm]
+        Santiago Morning-Deportes Santa Cruz: [2p15hbw5wluvcebyslc9t0sq2]
+        Rangers-Puerto Montt: [2pop92ggh08xgfi8boaxps7l6]
+        Copiapó-Deportes Valdivia: [2pga0ozufysnld6rprpfgrii2]
+        Santiago Wanderers-Magallanes: [2oc181g2ibz1wrq8hq7r6uaga]
+        La Serena-Ñublense: [2p87znr9qrrgkysui2jgjugkq]
+        Cobreloa-San Luis: [2o3s1j0kwwfgcjv5vw037ilwq]
+        }
+Fecha 9: {
+        Magallanes-Santiago Morning: [2qx1wmh38ei2u3ok4oqs3quzu]
+        Puerto Montt-Unión San Felipe: [2qfsez1bhqjiv6vuicr2q0cq2]
+        Deportes Santa Cruz-Rangers: [2rdi2ottq84f9e7u0mu3bhcve]
+        San Luis-Copiapó: [2q7grc65wtcga1ayliof06yy2]
+        Barnechea-Santiago Wanderers: [2qpp2h3hemklin9g1jxk5umi2]
+        Ñublense-Melipilla: [2r4y9lma6m2fjvuouczb81u22]
+        La Serena-Deportes Temuco: [2rmjjlg7j01eqca79cvsweulm]
+        Deportes Valdivia-Cobreloa: [2pzggm32enw1m0jten6cawyui]
+        }
+Fecha 10: {
+        Deportes Temuco-Ñublense: [2twzvyjgz4gird81jw6tv4dwq]
+        Unión San Felipe-Magallanes: [2sq2ivm6afw1qi2mebamkakiy]
+        Santiago Morning-Deportes Valdivia: [2u5zdm1aseu454f66kfxs2nai]
+        Rangers-Barnechea: [2t4jrez81s8gi8mvfu1sdkx9m]
+        San Luis-Puerto Montt: [2ufwoqdflnwtlnotmsro7csiy]
+        Copiapó-Deportes Santa Cruz: [2tj9kf5dwiw7yafkb7b20p2sq]
+        Melipilla-La Serena: [2rwfqn73bm2t3oxiu7jf0s4mi]
+        Cobreloa-Santiago Wanderers: [2sazg4t1skl4w7jkhi9ogz7u2]
+        }
+Fecha 11:{
+        Barnechea-Santiago Morning: [2vrfcow2jlz2koiazwrplj6ui]
+        Deportes Santa Cruz-La Serena: [2v8kxewtkb4g454l0w942eb8q]
+        Magallanes-Rangers: [2w8t34cn101sd1aiqn1qbscq2]
+        Unión San Felipe-Deportes Temuco: [2wdvqf9d80e7n8axhhcx3rgbu]
+        Santiago Wanderers-Melipilla: [2w1748nkbi2iekj0nbe7ni99m]
+        Puerto Montt-Copiapó: [2ux0p53bapvo9zk15im6z87e2]
+        Ñublense-Cobreloa: [2uoim2kv51uqk6co258lerhbe]
+        Deportes Valdivia-San Luis: [2vifz9bbqoy5kpytrutgjfjai]
+        }
+Fecha 12: {
+        Deportes Temuco-Magallanes: [2x2cs494w4bykv1s8ubc385t6]
+        La Serena-Santiago Wanderers: [2wwe57w1fva7ikag46oevcsiy]
+        Melipilla-Barnechea: [2xkplp7g6d7ci4506dx44eaui]
+        San Luis-Deportes Santa Cruz: [2xu2z5ppjba0j5exaq1saoz8q]
+        Copiapó-Ñublense: [2y1suwzjdgi5dtcg1hephxch6]
+        Rangers-Unión San Felipe: [2wn8lr2jentlyyyis4k6x58bu]
+        Cobreloa-Santiago Morning: [2x8t24fbe6vnbgogzqc9a1s2y]
+        Deportes Valdivia-Puerto Montt: [2y6tk212hu9ls0w7zxw1zynhm]
+        }
+Fecha 13: {
+        Barnechea-Cobreloa: [2yc9oe0r68z0ul575fygr92zu]
+        Santiago Wanderers-Copiapó: [2ykhn1in6u5dpj62b8y1ysoru]
+        Deportes Santa Cruz-Melipilla: [2zgeo1r0ytj1j3arw2c5fyoa2]
+        Puerto Montt-Deportes Temuco: [2zrdrffa15bo2uaz61g345gfe]
+        Santiago Morning-La Serena: [2yu099mjevw55sthqy85cxgmi]
+        Magallanes-Deportes Valdivia: [2zxclllbqsa4zdy66evj0z2ay]
+        Rangers-San Luis: [2z9m91fftwwwfk2c4nhvdyq96]
+        Unión San Felipe-Ñublense: [2zlzh5v0h6ifdm7esu9tn3gq2]
+        }
+Fecha 14: {
+        Melipilla-Puerto Montt: [31qwkvm0a8y1r56qdz6r8ife2]
+        Cobreloa-Magallanes: [30ej7wxoh0jh7xiht32axde96]
+        La Serena-Rangers: [31avds018p6xdw5fwgmlkmpgq]
+        San Luis-Barnechea: [30vzbhvg1w8rdq1q99ms9k5m2]
+        Copiapó-Unión San Felipe: [305shh9ynxbktmw5mhdsyeb8q]
+        Santiago Wanderers-Santiago Morning: [30nne3l6zvv9ncofdygcjvii2]
+        Ñublense-Deportes Santa Cruz: [312r7w02toricmd0wi7p264iy]
+        Deportes Temuco-Deportes Valdivia: [31hoi2ccr3p65tjmyqtmtcjfu]
+        }
+Fecha 15: {
+        Barnechea-Ñublense: [33rszs1fplj4pqp1eqx6u7fxm]
+        Magallanes-Copiapó: [32aayl5p6t6uwksjrgcrbq4x6]
+        Santiago Morning-San Luis: [3325uhaqzhnducaqimqkbovvu]
+        Puerto Montt-Santiago Wanderers: [338fl0io88pi3we7p969gpg8a]
+        Deportes Santa Cruz-Cobreloa: [31zrr6wptkp9sz0evh275dfu2]
+        Deportes Valdivia-Melipilla: [33j3yd8csz17dyh22qskh15d6]
+        Rangers-Deportes Temuco: [33zr9ip1fld67qtunpn2bkmlm]
+        Unión San Felipe-La Serena: [32qc6vvamir5sayizo1temnhm]
+        }
+Fecha 16: {
+        Unión San Felipe-Barnechea: [25ml9budq4noljs4u1anqzz3e]
+        Puerto Montt-Deportes Valdivia: [26b2ddrb0sljgdjo3s4tw6hka]
+        Copiapó-Cobreloa: [26iyb2u451kkc0yeygq0ztene]
+        Deportes Santa Cruz-Ñublense: [2631cjs3ektsoazwx468wjl9m]
+        San Luis-Magallanes: [25634z553hshf4fsr60ce6fl6]
+        La Serena-Santiago Morning: [25ezxqh4f5ych3njkz5af3qzu]
+        Deportes Temuco-Rangers: [25va7sluv1gbs5hzlz3rb1zsa]
+        Melipilla-Santiago Wanderers: [26r6z0zs40g5f8rdwn9e88siy]
+        }
+Fecha 17: {
+        Barnechea-Melipilla: [27rh1z0ihdvvug3x4hqn726wa]
+        Magallanes-Deportes Temuco: [27xzl3cxedefm3kw73rqsnp0q]
+        Deportes Valdivia-Copiapó: [26xxc4688w5xlu0k471kxpjze]
+        Cobreloa-La Serena: [276alq05h9ixt1rlej6gf83fu]
+        Ñublense-San Luis: [27kk5fb653vy82efochwzway2]
+        Santiago Wanderers-Unión San Felipe: [27dd285f3dp7oru76scl58qqy]
+        Santiago Morning-Puerto Montt: [284vvlbuf05kjbkaoj3m0u99m]
+        Rangers-Deportes Santa Cruz: [28bf5knwc4kh4jfwbzujdq4iy]
+        }
+Fecha 18: {
+        Deportes Temuco-Santiago Wanderers: [28h8jcmhblrlq1esf6fkmhje2]
+        Unión San Felipe-Rangers: [293m82cmg7b4lnvlpcjgdjluy]
+        Puerto Montt-Barnechea: [28xy966rvs3ldjtj7e7ukxhey]
+        Copiapó-Magallanes: [28mxhno2x61bd7gbe3b774k8a]
+        Deportes Santa Cruz-Santiago Morning: [28sdqakdzejc2bx87wl8q13l6]
+        Melipilla-Ñublense: [298m0vocy86p50wtmychlzfje]
+        San Luis-Cobreloa: [29kgzxca2ivpfrhau1o0jw4mi]
+        La Serena-Deportes Valdivia: [29ei9xdv5kg8s065xm0p9heui]
+        }
+Fecha 19: {
+        Barnechea-Copiapó: [29s0b2p1isu6h65ew6y82uaga]
+        Magallanes-Unión San Felipe: [2a4r3kri8ji6jcrpjw84447e2]
+        Santiago Wanderers-Puerto Montt: [2aliz1941etyidw7ilucjayy2]
+        Ñublense-La Serena: [29z1fxs1itwzk5pdtlenu9m5m]
+        Rangers-Melipilla: [2aadrvezw1r00xe5pza23qq96]
+        Deportes Valdivia-Deportes Temuco: [2afzodkvuif6gmshv3emhihka]
+        Santiago Morning-Cobreloa: [2arakisnwt1jydsdg11ka78tm]
+        Deportes Santa Cruz-San Luis: [2ay04w786p44dfjecbr5tat0q]
+        }
+Fecha 20: {
+        Magallanes-Ñublense: [2bxk3g6m90k7a8w85k9gyn04q]
+        Melipilla-Santiago Morning: [2bbk22zp2g79qfkk2b8ex28ve]
+        Puerto Montt-Rangers: [2brkqbvgofqna02qy8xk5df1m]
+        La Serena-Barnechea: [2bjdum7p2wf7onhgpb6xwbhpm]
+        Copiapó-Deportes Temuco: [2c3i758b6ztdzx8z4d799pxey]
+        Cobreloa-Unión San Felipe: [2b5a6aign49fji9v3x461nbe2]
+        San Luis-Deportes Valdivia: [2cf4j64h7majmhqimnzo0a73e]
+        Santiago Wanderers-Deportes Santa Cruz: [2c9irc3gaksww61y7n3vpic16]
+        }
+Fecha 21: {
+        Barnechea-San Luis: [2csstghest3kzdlgmv5w2caju]
+        Unión San Felipe-Puerto Montt: [2dod8nnwqyuamyinojdmvn2ay]
+        Cobreloa-Melipilla: [2dudhxi3o126hw6o7hhyux5yi]
+        Deportes Santa Cruz-Magallanes: [2das3u1qawau8h6co959m66wa]
+        Deportes Temuco-Santiago Morning: [2dipw1zf3llmboc2sjmvi8sx6]
+        Rangers-La Serena: [2cmavaedrn9p71wijh0jrmpnu]
+        Deportes Valdivia-Santiago Wanderers: [2d2hhg7j133ogh23h9sd9anhm]
+        Ñublense-Copiapó: [2e0kwr3dsv0z45t82lg399gtm]
+        }
+Fecha 22: {
+        Barnechea-Magallanes: [2eh67r7mwuriq7pzkeoh9l3l6]
+        La Serena-Deportes Santa Cruz: [2epmq3zr2ugsipadnbs69x3sa]
+        San Luis-Deportes Temuco: [2f7p3cf1z4lr2podd63bqbx4a]
+        Puerto Montt-Cobreloa: [2fnfbhb29lj1y33ait3hk2c8a]
+        Ñublense-Unión San Felipe: [2e8gbo7uc1mgw9ppfk0pk1dgq]
+        Melipilla-Deportes Valdivia: [2fceyfmez9fzw3gyd2xfxgcx6]
+        Copiapó-Rangers: [2ezbumdn7z3cysf889n9uy2cq]
+        Santiago Morning-Santiago Wanderers: [2fhfqtsz9c9lc1m7b141rg31m]
+        }
+Fecha 23: {
+       Magallanes-Melipilla: [2g6j5z9odxs2tv21e7k465y7e]
+       Unión San Felipe-Copiapó: [2fusq6v37rcf3jmsw1hyd8up6]
+       Santiago Wanderers-La Serena: [2g0vr4pz49zrfa4b2p62y37fu]
+       Deportes Santa Cruz-Barnechea: [2gtusk5nbpgnoughrlzpo1fu2]
+       San Luis-Rangers: [2gc6iylrqtm497tcnngpf1xey]
+       Deportes Temuco-Puerto Montt: [2gnppcs3vexufunomnhpjhyzu]
+       Cobreloa-Ñublense: [2ghvd8cent84jzy58u21sj8mi]
+       Deportes Valdivia-Santiago Morning: [2h0y5yxh6dma4rzngk7l102ne]
+       }
+Fecha 24: {
+        La Serena-Copiapó: [2hzyikp8jpmxzavv850tt6bu2]
+        Unión San Felipe-San Luis: [2h6v3wkqzrz5atr4cyy1fmane]
+        Santiago Morning-Ñublense: [2hnwgj8v7x3ix37cjtwitq25m]
+        Puerto Montt-Magallanes: [2hcyeulnysiyzg6g5cdxgkg2y]
+        Deportes Temuco-Cobreloa: [2i6ddn6cl9t291mazu6er2gdm]
+        Rangers-Deportes Valdivia: [2htwpmwav3turv7cdk4ypf71m]
+        Melipilla-Deportes Santa Cruz: [2hhyub7mzjjxh7i3f0o9vhzsa]
+        Santiago Wanderers-Barnechea: [2idyy6b05pvalofwoae598wa2]
+        }
+Fecha 25: {
+        San Luis-La Serena: [6iowfgeqrx6dqi99iq0g4pppm]
+        Deportes Santa Cruz-Puerto Montt: [6k1i9fpo54xrtmqnleshpxawa]
+        Ñublense-Deportes Temuco: [6jkcg33te9nf2xdc32emq6oa2]
+        Magallanes-Santiago Wanderers: [6jpwoplk3rzfaymynrj5eorca]
+        Cobreloa-Deportes Valdivia: [6j92oq31jyferhtntq8qqyi5m]
+        Melipilla-Unión San Felipe: [6jerbt7y3z6bzf6byq0omb1ii]
+        Copiapó-Santiago Morning: [6j1ix4ezzeh9fzf9t8fnwjckq]
+        Barnechea-Rangers: [6jvorl61bbgorzmc5hj4loe3u]
+        }
+Fecha 26: {
+        Santiago Morning-Barnechea: [6kci5yqjimecwmos0lpwygokq]
+        Puerto Montt-Melipilla: [6kmvqolvutx99i4q658iewzmy]
+        Copiapó-San Luis: [6ksi6fky0alyo7pslyilnuxyi]
+        Santiago Wanderers-Cobreloa: [6lado3cs4hvy8ndts6g0r1j6y]
+        Deportes Valdivia-Ñublense: [6k7t2a5hz1xoif04idl07nbsa]
+        Unión San Felipe-Deportes Santa Cruz: [6kx78v58f1u2wbepwyxjh5tnu]
+        Deportes Temuco-La Serena: [6kguopf64p9koa1gnm69tdm5m]
+        Rangers-Magallanes: [6l3hsjaex1cqnvd7x521mf23u]
+        }
+Fecha 27: {
+        Barnechea-Deportes Temuco: [6lo9u0xjzljtfnx0snruyesmi]
+        Ñublense-Puerto Montt: [6lg6vrjmlxyzx8wax61qbloiy]
+        La Serena-Unión San Felipe: [6lt2wmx2wdwlqpp11a46v22y2]
+        Rangers-Santiago Wanderers: [6m46dcwq9k56i0of8pl2xs222]
+        Deportes Santa Cruz-Deportes Valdivia: [6lxram4c59257gblki7sb848a]
+        }
+             
+EL CAMPEONATO SE CANCELÓ DESPUES DE ESTE PARTIDO
+
+
+                {
+                    "id": "6lxram4c59257gblki7sb848a",
+                    "coverageLevel": "8",
+                    "date": "2019-10-19Z",
+                    "time": "22:00:00Z",
+                    "homeContestantId": "6n1i99d69ktxseecp7cpfu971",
+                    "awayContestantId": "ahmdo9li2vmsx3zm41c8yn048",
+                    "homeContestantName": "Deportes Santa Cruz",
+                    "awayContestantName": "Deportes Valdivia",
+                    "homeContestantOfficialName": "Deportes Santa Cruz",
+                    "awayContestantOfficialName": "Club de Deportes Valdivia",
+                    "homeContestantShortName": "Santa Cruz",
+                    "awayContestantShortName": "Valdivia",
+                    "homeContestantCode": "SCR",
+                    "awayContestantCode": "VAL"
+                }
+            ]
+        },
+        {
+            "date": "2019-11-12Z",
+            "numberOfGames": "1",
+            "match": [
+                {
+                    "id": "6m8p3lbpodsg3bpzv67be84fe",
+                    "coverageLevel": "13",
+                    "date": "2019-11-12Z",
+                    "time": "15:00:00Z",
+                    "homeContestantId": "7h7fqxh99usu5e961lp7e9ys0",
+                    "awayContestantId": "c13hhw4wpbq45nnafm0up66k4",
+                    "homeContestantName": "Magallanes",
+                    "awayContestantName": "Cobreloa",
+                    "homeContestantOfficialName": "Club Deportivo Magallanes",
+                    "awayContestantOfficialName": "CD Cobreloa",
+                    "homeContestantShortName": "Magallanes",
+                    "awayContestantShortName": "Cobreloa",
+                    "homeContestantCode": "MAG",
+                    "awayContestantCode": "COB"
+                }
+            ]
+        },
+        {
+            "date": "2019-11-13Z",
+            "numberOfGames": "2",
+            "match": [
+                {
+                    "id": "6mpgs0yzc8j9yenhr8rcur5gq",
+                    "coverageLevel": "8",
+                    "date": "2019-11-13Z",
+                    "time": "15:00:00Z",
+                    "homeContestantId": "435djgwa4ch5t8owl07wc5u6j",
+                    "awayContestantId": "5vzljq8u0ug5b7ot3vytz6xkw",
+                    "homeContestantName": "Melipilla",
+                    "awayContestantName": "Copiapó",
+                    "homeContestantOfficialName": "CD Melipilla",
+                    "awayContestantOfficialName": "CD Copiapó",
+                    "homeContestantShortName": "Melipilla",
+                    "awayContestantShortName": "Copiapó",
+                    "homeContestantCode": "MEL",
+                    "awayContestantCode": "COP"
+                },
+                {
+                    "id": "6mh2xzfy1ny9sc4hlceed3l2i",
+                    "coverageLevel": "8",
+                    "date": "2019-11-13Z",
+                    "time": "15:30:00Z",
+                    "homeContestantId": "4pem9axjomj07u51fk1pg0wzy",
+                    "awayContestantId": "7ezloddyau3psufkdq7uadi9p",
+                    "homeContestantName": "San Luis",
+                    "awayContestantName": "Santiago Morning",
+                    "homeContestantOfficialName": "CD San Luis de Quillota",
+                    "awayContestantOfficialName": "CD Santiago Morning",
+                    "homeContestantShortName": "San Luis",
+                    "awayContestantShortName": "Morning",
+                    "homeContestantCode": "SLU",
+                    "awayContestantCode": "MOR"
+                }
+            ]
+        },
+        {
+            "date": "2019-11-23Z",
+            "numberOfGames": "4",
+            "match": [
+                {
+                    "id": "6ppuy03lsa17lks900y2a2mwa",
+                    "coverageLevel": "13",
+                    "date": "2019-11-23Z",
+                    "time": "14:30:00Z",
+                    "homeContestantId": "1zsb1ovzidi8rft1vzw4me71m",
+                    "awayContestantId": "da47iiy2m3jqh3ra1343t14h",
+                    "homeContestantName": "Santiago Wanderers",
+                    "awayContestantName": "Ñublense",
+                    "homeContestantOfficialName": "CD Santiago Wanderers",
+                    "awayContestantOfficialName": "Deportivo Ñublense SADP",
+                    "homeContestantShortName": "Wanderers",
+                    "awayContestantShortName": "Ñublense",
+                    "homeContestantCode": "WAN",
+                    "awayContestantCode": "NUB"
+                },
+                {
+                    "id": "6pf8stuieledln6rcb21jwgh6",
+                    "coverageLevel": "8",
+                    "date": "2019-11-23Z",
+                    "time": "20:30:00Z",
+                    "homeContestantId": "acnr45k0iyzvr8thv0qvspjzi",
+                    "awayContestantId": "7ezloddyau3psufkdq7uadi9p",
+                    "homeContestantName": "Unión San Felipe",
+                    "awayContestantName": "Santiago Morning",
+                    "homeContestantOfficialName": "CD Unión San Felipe",
+                    "awayContestantOfficialName": "CD Santiago Morning",
+                    "homeContestantShortName": "San Felipe",
+                    "awayContestantShortName": "Morning",
+                    "homeContestantCode": "SFE",
+                    "awayContestantCode": "MOR"
+                },
+                {
+                    "id": "6pkpko27z3oyne29bz17zlfu2",
+                    "coverageLevel": "8",
+                    "date": "2019-11-23Z",
+                    "time": "22:00:00Z",
+                    "homeContestantId": "6n1i99d69ktxseecp7cpfu971",
+                    "awayContestantId": "5vzljq8u0ug5b7ot3vytz6xkw",
+                    "homeContestantName": "Deportes Santa Cruz",
+                    "awayContestantName": "Copiapó",
+                    "homeContestantOfficialName": "Deportes Santa Cruz",
+                    "awayContestantOfficialName": "CD Copiapó",
+                    "homeContestantShortName": "Santa Cruz",
+                    "awayContestantShortName": "Copiapó",
+                    "homeContestantCode": "SCR",
+                    "awayContestantCode": "COP"
+                },
+                {
+                    "id": "6osf9r5rw9s11fiw2yy8tyj56",
+                    "coverageLevel": "8",
+                    "date": "2019-11-23Z",
+                    "time": "22:30:00Z",
+                    "homeContestantId": "3suhaq9lof0lwpkqikqqcro2f",
+                    "awayContestantId": "ahmdo9li2vmsx3zm41c8yn048",
+                    "homeContestantName": "Barnechea",
+                    "awayContestantName": "Deportes Valdivia",
+                    "homeContestantOfficialName": "Club Social y Deportivo Lo Barnechea",
+                    "awayContestantOfficialName": "Club de Deportes Valdivia",
+                    "homeContestantShortName": "Barnechea",
+                    "awayContestantShortName": "Valdivia",
+                    "homeContestantCode": "BAR",
+                    "awayContestantCode": "VAL"
+                }
+            ]
+        },
+        {
+            "date": "2019-11-24Z",
+            "numberOfGames": "4",
+            "match": [
+                {
+                    "id": "6q0do75go4jt86rjifiry2u0a",
+                    "coverageLevel": "8",
+                    "date": "2019-11-24Z",
+                    "time": "14:00:00Z",
+                    "homeContestantId": "435djgwa4ch5t8owl07wc5u6j",
+                    "awayContestantId": "3offzg5j5vzqmrra2lx73kbu7",
+                    "homeContestantName": "Melipilla",
+                    "awayContestantName": "Deportes Temuco",
+                    "homeContestantOfficialName": "CD Melipilla",
+                    "awayContestantOfficialName": "CD Temuco",
+                    "homeContestantShortName": "Melipilla",
+                    "awayContestantShortName": "Temuco",
+                    "homeContestantCode": "MEL",
+                    "awayContestantCode": "TEM"
+                },
+                {
+                    "id": "6ozee0okcmfjl3kplqunj0pyi",
+                    "coverageLevel": "8",
+                    "date": "2019-11-24Z",
+                    "time": "14:30:00Z",
+                    "homeContestantId": "c79dztwjlrdn268fzce3ssuzz",
+                    "awayContestantId": "4pem9axjomj07u51fk1pg0wzy",
+                    "homeContestantName": "Puerto Montt",
+                    "awayContestantName": "San Luis",
+                    "homeContestantOfficialName": "CD Puerto Montt",
+                    "awayContestantOfficialName": "CD San Luis de Quillota",
+                    "homeContestantShortName": "Puerto Montt",
+                    "awayContestantShortName": "San Luis",
+                    "homeContestantCode": "PMO",
+                    "awayContestantCode": "SLU"
+                },
+                {
+                    "id": "6puriheu7ys4rhtjhic5jihyi",
+                    "coverageLevel": "13",
+                    "date": "2019-11-24Z",
+                    "time": "14:30:00Z",
+                    "homeContestantId": "4vsdvf304gmnqict2ghwzyduu",
+                    "awayContestantId": "c13hhw4wpbq45nnafm0up66k4",
+                    "homeContestantName": "Rangers",
+                    "awayContestantName": "Cobreloa",
+                    "homeContestantOfficialName": "CSD Rangers",
+                    "awayContestantOfficialName": "CD Cobreloa",
+                    "homeContestantShortName": "Rangers",
+                    "awayContestantShortName": "Cobreloa",
+                    "homeContestantCode": "RAN",
+                    "awayContestantCode": "COB"
+                },
+                {
+                    "id": "6p7dgnat7hecusvov6j0ac2ne",
+                    "coverageLevel": "8",
+                    "date": "2019-11-24Z",
+                    "time": "21:00:00Z",
+                    "homeContestantId": "7h7fqxh99usu5e961lp7e9ys0",
+                    "awayContestantId": "2nxp7ufclxwbtaozvx5zj1zym",
+                    "homeContestantName": "Magallanes",
+                    "awayContestantName": "La Serena",
+                    "homeContestantOfficialName": "Club Deportivo Magallanes",
+                    "awayContestantOfficialName": "CD La Serena",
+                    "homeContestantShortName": "Magallanes",
+                    "awayContestantShortName": "La Serena",
+                    "homeContestantCode": "MAG",
+                    "awayContestantCode": "LAS"
+                }
+            ]
+        },
+        {
+            "date": "2019-12-01Z",
+            "numberOfGames": "8",
+            "match": [
+                {
+                    "id": "6q5d6wol5b9um0ob34g8zhgtm",
+                    "coverageLevel": "8",
+                    "date": "2019-12-01Z",
+                    "time": "",
+                    "homeContestantId": "5vzljq8u0ug5b7ot3vytz6xkw",
+                    "awayContestantId": "1zsb1ovzidi8rft1vzw4me71m",
+                    "homeContestantName": "Copiapó",
+                    "awayContestantName": "Santiago Wanderers",
+                    "homeContestantOfficialName": "CD Copiapó",
+                    "awayContestantOfficialName": "CD Santiago Wanderers",
+                    "homeContestantShortName": "Copiapó",
+                    "awayContestantShortName": "Wanderers",
+                    "homeContestantCode": "COP",
+                    "awayContestantCode": "WAN"
+                },
+                {
+                    "id": "6qj5ocdymwd4i5yan20zl20yy",
+                    "coverageLevel": "8",
+                    "date": "2019-12-01Z",
+                    "time": "",
+                    "homeContestantId": "3offzg5j5vzqmrra2lx73kbu7",
+                    "awayContestantId": "6n1i99d69ktxseecp7cpfu971",
+                    "homeContestantName": "Deportes Temuco",
+                    "awayContestantName": "Deportes Santa Cruz",
+                    "homeContestantOfficialName": "CD Temuco",
+                    "awayContestantOfficialName": "Deportes Santa Cruz",
+                    "homeContestantShortName": "Temuco",
+                    "awayContestantShortName": "Santa Cruz",
+                    "homeContestantCode": "TEM",
+                    "awayContestantCode": "SCR"
+                },
+                {
+                    "id": "6qpl4jy9f1ilb9r4kp58rkxnu",
+                    "coverageLevel": "8",
+                    "date": "2019-12-01Z",
+                    "time": "",
+                    "homeContestantId": "ahmdo9li2vmsx3zm41c8yn048",
+                    "awayContestantId": "acnr45k0iyzvr8thv0qvspjzi",
+                    "homeContestantName": "Deportes Valdivia",
+                    "awayContestantName": "Unión San Felipe",
+                    "homeContestantOfficialName": "Club de Deportes Valdivia",
+                    "awayContestantOfficialName": "CD Unión San Felipe",
+                    "homeContestantShortName": "Valdivia",
+                    "awayContestantShortName": "San Felipe",
+                    "homeContestantCode": "VAL",
+                    "awayContestantCode": "SFE"
+                },
+                {
+                    "id": "6qwqbwo7bywi9e39new3jmr8q",
+                    "coverageLevel": "8",
+                    "date": "2019-12-01Z",
+                    "time": "",
+                    "homeContestantId": "4pem9axjomj07u51fk1pg0wzy",
+                    "awayContestantId": "435djgwa4ch5t8owl07wc5u6j",
+                    "homeContestantName": "San Luis",
+                    "awayContestantName": "Melipilla",
+                    "homeContestantOfficialName": "CD San Luis de Quillota",
+                    "awayContestantOfficialName": "CD Melipilla",
+                    "homeContestantShortName": "San Luis",
+                    "awayContestantShortName": "Melipilla",
+                    "homeContestantCode": "SLU",
+                    "awayContestantCode": "MEL"
+                },
+                {
+                    "id": "6r3lm9q9270zn66fvzqbx4rqi",
+                    "coverageLevel": "8",
+                    "date": "2019-12-01Z",
+                    "time": "",
+                    "homeContestantId": "da47iiy2m3jqh3ra1343t14h",
+                    "awayContestantId": "4vsdvf304gmnqict2ghwzyduu",
+                    "homeContestantName": "Ñublense",
+                    "awayContestantName": "Rangers",
+                    "homeContestantOfficialName": "Deportivo Ñublense SADP",
+                    "awayContestantOfficialName": "CSD Rangers",
+                    "homeContestantShortName": "Ñublense",
+                    "awayContestantShortName": "Rangers",
+                    "homeContestantCode": "NUB",
+                    "awayContestantCode": "RAN"
+                },
+                {
+                    "id": "6rauawv4vtpkqstvbq5iomnvu",
+                    "coverageLevel": "8",
+                    "date": "2019-12-01Z",
+                    "time": "",
+                    "homeContestantId": "c13hhw4wpbq45nnafm0up66k4",
+                    "awayContestantId": "3suhaq9lof0lwpkqikqqcro2f",
+                    "homeContestantName": "Cobreloa",
+                    "awayContestantName": "Barnechea",
+                    "homeContestantOfficialName": "CD Cobreloa",
+                    "awayContestantOfficialName": "Club Social y Deportivo Lo Barnechea",
+                    "homeContestantShortName": "Cobreloa",
+                    "awayContestantShortName": "Barnechea",
+                    "homeContestantCode": "COB",
+                    "awayContestantCode": "BAR"
+                },
+                {
+                    "id": "6rfnsjyfi7bx5ooem9euvni3u",
+                    "coverageLevel": "8",
+                    "date": "2019-12-01Z",
+                    "time": "",
+                    "homeContestantId": "7ezloddyau3psufkdq7uadi9p",
+                    "awayContestantId": "7h7fqxh99usu5e961lp7e9ys0",
+                    "homeContestantName": "Santiago Morning",
+                    "awayContestantName": "Magallanes",
+                    "homeContestantOfficialName": "CD Santiago Morning",
+                    "awayContestantOfficialName": "Club Deportivo Magallanes",
+                    "homeContestantShortName": "Morning",
+                    "awayContestantShortName": "Magallanes",
+                    "homeContestantCode": "MOR",
+                    "awayContestantCode": "MAG"
+                },
+                {
+                    "id": "6rngkl1bknj9hn78ymulouesq",
+                    "coverageLevel": "8",
+                    "date": "2019-12-01Z",
+                    "time": "",
+                    "homeContestantId": "2nxp7ufclxwbtaozvx5zj1zym",
+                    "awayContestantId": "c79dztwjlrdn268fzce3ssuzz",
+                    "homeContestantName": "La Serena",
+                    "awayContestantName": "Puerto Montt",
+                    "homeContestantOfficialName": "CD La Serena",
+                    "awayContestantOfficialName": "CD Puerto Montt",
+                    "homeContestantShortName": "La Serena",
+                    "awayContestantShortName": "Puerto Montt",
+                    "homeContestantCode": "LAS",
+                    "awayContestantCode": "PMO"
+                }
+            ]
+        },
+        {
+            "date": "2019-12-08Z",
+            "numberOfGames": "8",
+            "match": [
+                {
+                    "id": "6mxvaxl250srl1itvjx6zb3oq",
+                    "coverageLevel": "8",
+                    "date": "2019-12-08Z",
+                    "time": "",
+                    "homeContestantId": "2nxp7ufclxwbtaozvx5zj1zym",
+                    "awayContestantId": "435djgwa4ch5t8owl07wc5u6j",
+                    "homeContestantName": "La Serena",
+                    "awayContestantName": "Melipilla",
+                    "homeContestantOfficialName": "CD La Serena",
+                    "awayContestantOfficialName": "CD Melipilla",
+                    "homeContestantShortName": "La Serena",
+                    "awayContestantShortName": "Melipilla",
+                    "homeContestantCode": "LAS",
+                    "awayContestantCode": "MEL"
+                },
+                {
+                    "id": "6n6m36j948jkaxgjnpi2ez9t6",
+                    "coverageLevel": "8",
+                    "date": "2019-12-08Z",
+                    "time": "",
+                    "homeContestantId": "1zsb1ovzidi8rft1vzw4me71m",
+                    "awayContestantId": "4pem9axjomj07u51fk1pg0wzy",
+                    "homeContestantName": "Santiago Wanderers",
+                    "awayContestantName": "San Luis",
+                    "homeContestantOfficialName": "CD Santiago Wanderers",
+                    "awayContestantOfficialName": "CD San Luis de Quillota",
+                    "homeContestantShortName": "Wanderers",
+                    "awayContestantShortName": "San Luis",
+                    "homeContestantCode": "WAN",
+                    "awayContestantCode": "SLU"
+                },
+                {
+                    "id": "6nehuh69ee92edefgfuvvopka",
+                    "coverageLevel": "8",
+                    "date": "2019-12-08Z",
+                    "time": "",
+                    "homeContestantId": "5vzljq8u0ug5b7ot3vytz6xkw",
+                    "awayContestantId": "c79dztwjlrdn268fzce3ssuzz",
+                    "homeContestantName": "Copiapó",
+                    "awayContestantName": "Puerto Montt",
+                    "homeContestantOfficialName": "CD Copiapó",
+                    "awayContestantOfficialName": "CD Puerto Montt",
+                    "homeContestantShortName": "Copiapó",
+                    "awayContestantShortName": "Puerto Montt",
+                    "homeContestantCode": "COP",
+                    "awayContestantCode": "PMO"
+                },
+                {
+                    "id": "6noli0rl83tk5huhqyga9wbca",
+                    "coverageLevel": "8",
+                    "date": "2019-12-08Z",
+                    "time": "",
+                    "homeContestantId": "c13hhw4wpbq45nnafm0up66k4",
+                    "awayContestantId": "6n1i99d69ktxseecp7cpfu971",
+                    "homeContestantName": "Cobreloa",
+                    "awayContestantName": "Deportes Santa Cruz",
+                    "homeContestantOfficialName": "CD Cobreloa",
+                    "awayContestantOfficialName": "Deportes Santa Cruz",
+                    "homeContestantShortName": "Cobreloa",
+                    "awayContestantShortName": "Santa Cruz",
+                    "homeContestantCode": "COB",
+                    "awayContestantCode": "SCR"
+                },
+                {
+                    "id": "6nykfz7yl53ori5u8mc18uesq",
+                    "coverageLevel": "8",
+                    "date": "2019-12-08Z",
+                    "time": "",
+                    "homeContestantId": "ahmdo9li2vmsx3zm41c8yn048",
+                    "awayContestantId": "7h7fqxh99usu5e961lp7e9ys0",
+                    "homeContestantName": "Deportes Valdivia",
+                    "awayContestantName": "Magallanes",
+                    "homeContestantOfficialName": "Club de Deportes Valdivia",
+                    "awayContestantOfficialName": "Club Deportivo Magallanes",
+                    "homeContestantShortName": "Valdivia",
+                    "awayContestantShortName": "Magallanes",
+                    "homeContestantCode": "VAL",
+                    "awayContestantCode": "MAG"
+                },
+                {
+                    "id": "6o7psllka62lpxi8d3cam15yi",
+                    "coverageLevel": "8",
+                    "date": "2019-12-08Z",
+                    "time": "",
+                    "homeContestantId": "7ezloddyau3psufkdq7uadi9p",
+                    "awayContestantId": "4vsdvf304gmnqict2ghwzyduu",
+                    "homeContestantName": "Santiago Morning",
+                    "awayContestantName": "Rangers",
+                    "homeContestantOfficialName": "CD Santiago Morning",
+                    "awayContestantOfficialName": "CSD Rangers",
+                    "homeContestantShortName": "Morning",
+                    "awayContestantShortName": "Rangers",
+                    "homeContestantCode": "MOR",
+                    "awayContestantCode": "RAN"
+                },
+                {
+                    "id": "6oec61zgdg4xf6dmjv6gx68oa",
+                    "coverageLevel": "8",
+                    "date": "2019-12-08Z",
+                    "time": "",
+                    "homeContestantId": "da47iiy2m3jqh3ra1343t14h",
+                    "awayContestantId": "3suhaq9lof0lwpkqikqqcro2f",
+                    "homeContestantName": "Ñublense",
+                    "awayContestantName": "Barnechea",
+                    "homeContestantOfficialName": "Deportivo Ñublense SADP",
+                    "awayContestantOfficialName": "Club Social y Deportivo Lo Barnechea",
+                    "homeContestantShortName": "Ñublense",
+                    "awayContestantShortName": "Barnechea",
+                    "homeContestantCode": "NUB",
+                    "awayContestantCode": "BAR"
+                },
+                {
+                    "id": "6omtq9zdmijttxlc7hrec4dpm",
+                    "coverageLevel": "8",
+                    "date": "2019-12-08Z",
+                    "time": "",
+                    "homeContestantId": "3offzg5j5vzqmrra2lx73kbu7",
+                    "awayContestantId": "acnr45k0iyzvr8thv0qvspjzi",
+                    "homeContestantName": "Deportes Temuco",
+                    "awayContestantName": "Unión San Felipe",
+                    "homeContestantOfficialName": "CD Temuco",
+                    "awayContestantOfficialName": "CD Unión San Felipe",
+                    "homeContestantShortName": "Temuco",
+                    "awayContestantShortName": "San Felipe",
+                    "homeContestantCode": "TEM",
+                    "awayContestantCode": "SFE"
+                }
+            ]
+        },
+        {
+            "date": "2020-01-11Z",
+            "numberOfGames": "2",
+            "match": [
+                {
+                    "id": "6m924l3pyi2vf1yh937f6nvqi",
+                    "coverageLevel": "13",
+                    "date": "2020-01-11Z",
+                    "time": "21:00:00Z",
+                    "homeContestantId": "da47iiy2m3jqh3ra1343t14h",
+                    "awayContestantId": "c79dztwjlrdn268fzce3ssuzz",
+                    "homeContestantName": "Ñublense",
+                    "awayContestantName": "Puerto Montt",
+                    "homeContestantOfficialName": "Deportivo Ñublense SADP",
+                    "awayContestantOfficialName": "CD Puerto Montt",
+                    "homeContestantShortName": "Ñublense",
+                    "awayContestantShortName": "Puerto Montt",
+                    "homeContestantCode": "NUB",
+                    "awayContestantCode": "PMO"
+                },
+                {
+                    "id": "7sp3s0twsn6cvqtzc75xpt016",
+                    "coverageLevel": "13",
+                    "date": "2020-01-11Z",
+                    "time": "23:30:00Z",
+                    "homeContestantId": "3suhaq9lof0lwpkqikqqcro2f",
+                    "awayContestantId": "5vzljq8u0ug5b7ot3vytz6xkw",
+                    "homeContestantName": "Barnechea",
+                    "awayContestantName": "Copiapó",
+                    "homeContestantOfficialName": "Club Social y Deportivo Lo Barnechea",
+                    "awayContestantOfficialName": "CD Copiapó",
+                    "homeContestantShortName": "Barnechea",
+                    "awayContestantShortName": "Copiapó",
+                    "homeContestantCode": "BAR",
+                    "awayContestantCode": "COP"
+                }
+            ]
+        },
+        {
+            "date": "2020-01-12Z",
+            "numberOfGames": "2",
+            "match": [
+                {
+                    "id": "79dbrqtjrui4ktoknypofatey",
+                    "coverageLevel": "13",
+                    "date": "2020-01-12Z",
+                    "time": "21:00:00Z",
+                    "homeContestantId": "435djgwa4ch5t8owl07wc5u6j",
+                    "awayContestantId": "acnr45k0iyzvr8thv0qvspjzi",
+                    "homeContestantName": "Melipilla",
+                    "awayContestantName": "Unión San Felipe",
+                    "homeContestantOfficialName": "CD Melipilla",
+                    "awayContestantOfficialName": "CD Unión San Felipe",
+                    "homeContestantShortName": "Melipilla",
+                    "awayContestantShortName": "San Felipe",
+                    "homeContestantCode": "MEL",
+                    "awayContestantCode": "SFE"
+                },
+                {
+                    "id": "8fnjcsw3al96r00lu85ad6kiy",
+                    "coverageLevel": "13",
+                    "date": "2020-01-12Z",
+                    "time": "23:30:00Z",
+                    "homeContestantId": "c13hhw4wpbq45nnafm0up66k4",
+                    "awayContestantId": "3offzg5j5vzqmrra2lx73kbu7",
+                    "homeContestantName": "Cobreloa",
+                    "awayContestantName": "Deportes Temuco",
+                    "homeContestantOfficialName": "CD Cobreloa",
+                    "awayContestantOfficialName": "CD Temuco",
+                    "homeContestantShortName": "Cobreloa",
+                    "awayContestantShortName": "Temuco",
+                    "homeContestantCode": "COB",
+                    "awayContestantCode": "TEM"
+                }
+            ]
+        },
+        {
+            "date": "2020-01-15Z",
+            "numberOfGames": "2",
+            "match": [
+                {
+                    "id": "4lvzpnrztpkq3nzupv504l27e",
+                    "coverageLevel": "13",
+                    "date": "2020-01-15Z",
+                    "time": "21:00:00Z",
+                    "homeContestantId": "435djgwa4ch5t8owl07wc5u6j",
+                    "awayContestantId": "5vzljq8u0ug5b7ot3vytz6xkw",
+                    "homeContestantName": "Melipilla",
+                    "awayContestantName": "Copiapó",
+                    "homeContestantOfficialName": "CD Melipilla",
+                    "awayContestantOfficialName": "CD Copiapó",
+                    "homeContestantShortName": "Melipilla",
+                    "awayContestantShortName": "Copiapó",
+                    "homeContestantCode": "MEL",
+                    "awayContestantCode": "COP"
+                },
+                {
+                    "id": "63lj0ktiulf2sldz1rtmjxnxm",
+                    "coverageLevel": "13",
+                    "date": "2020-01-15Z",
+                    "time": "23:30:00Z",
+                    "homeContestantId": "da47iiy2m3jqh3ra1343t14h",
+                    "awayContestantId": "3offzg5j5vzqmrra2lx73kbu7",
+                    "homeContestantName": "Ñublense",
+                    "awayContestantName": "Deportes Temuco",
+                    "homeContestantOfficialName": "Deportivo Ñublense SADP",
+                    "awayContestantOfficialName": "CD Temuco",
+                    "homeContestantShortName": "Ñublense",
+                    "awayContestantShortName": "Temuco",
+                    "homeContestantCode": "NUB",
+                    "awayContestantCode": "TEM"
+                }
+            ]
+        },
+        {
+            "date": "2020-01-19Z",
+            "numberOfGames": "1",
+            "match": [
+                {
+                    "id": "3y0dift70oqwdp7yw5rdjd62",
+                    "coverageLevel": "13",
+                    "date": "2020-01-19Z",
+                    "time": "23:00:00Z",
+                    "homeContestantId": "5vzljq8u0ug5b7ot3vytz6xkw",
+                    "awayContestantId": "3offzg5j5vzqmrra2lx73kbu7",
+                    "homeContestantName": "Copiapó",
+                    "awayContestantName": "Deportes Temuco",
+                    "homeContestantOfficialName": "CD Copiapó",
+                    "awayContestantOfficialName": "CD Temuco",
+                    "homeContestantShortName": "Copiapó",
+                    "awayContestantShortName": "Temuco",
+                    "homeContestantCode": "COP",
+                    "awayContestantCode": "TEM"
+                }
+            ]
+        },
+        {
+            "date": "2020-01-23Z",
+            "numberOfGames": "1",
+            "match": [
+                {
+                    "id": "1krodaec4vi2b62ql68ll9pii",
+                    "coverageLevel": "13",
+                    "date": "2020-01-23Z",
+                    "time": "23:00:00Z",
+                    "homeContestantId": "2nxp7ufclxwbtaozvx5zj1zym",
+                    "awayContestantId": "3offzg5j5vzqmrra2lx73kbu7",
+                    "homeContestantName": "La Serena",
+                    "awayContestantName": "Deportes Temuco",
+                    "homeContestantOfficialName": "CD La Serena",
+                    "awayContestantOfficialName": "CD Temuco",
+                    "homeContestantShortName": "La Serena",
+                    "awayContestantShortName": "Temuco",
+                    "homeContestantCode": "LAS",
+                    "awayContestantCode": "TEM"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 29 21:39:22 2020
+
+@author: Casa
+"""
+
+"""Id Partidos Copa Chile 2018: 
+
+Final: {
+        Audax Italiano-Palestino: [9gwfac69zmerh30y5o3va1qi2]
+        Palestino-Audax Italiano: [9gq1tmhgsdiqyu8rhbg77qlii]
+        }
+    
+Semifinal: {
+            Audax Italiano-Barnechea: [555pz88g8q91aepqiaqgfnjoq]
+            Universidad de Chile-Palestino: [54wd6u97atx7l80tlvsd5c2ui]
+            Palestino-Universidad de Chile: [54n0tppam0dl6agy2yal1iru2]
+            Barnechea-Audax Italiano: [5516uobgbnp9oefia5057dnca]
+            }
+            
+Cuartos de final: {
+            Palestino-Cobresal: [7c8tj3j39pj9mnh16zsv17ucq]
+            Cobreloa-Universidad de Chile: [7c4robrmdow0lfkx7o9rx8dbe]
+            Huachipato-Audax Italiano: [7c0z0hp2aym8o507j7rvfxhm2]
+            Barnechea-Deportes Valdivia: [7bvg7qecqvc359gbdtq8uxap6]
+            Audax Italiano-Huachipato: [34wg3oi9hctq85b7wkh230h9m]
+            Cobresal-Palestino: [34tc1u63nu036qbrzt3k2e4x6]
+            Deportes Valdivia-Barnechea: [34q0ndbdqvf7mebr7q905k6ei]
+            Universidad de Chile-Cobreloa: [34m55h0vwd3m7co6e5xi8ngbu]
+            }
+Octavos de final: {
+            Huachipato-Copiapó: [8pj3446uc1l01q1j8san6razu]
+            San Marcos-Cobreloa: [8pqm1uwie3i4quo4nuhaya54a]
+            Ñublense-Cobresal: [aj6qix5iwpjep4qqaqjezqjxm]
+            Unión La Calera-Palestino: [f1185kb7f97o6zj72nz32rbsa]
+            Puerto Montt-Deportes Valdivia: [8pfbyvgpovr4tlp2jssja1wtm]
+            Colchagua-Universidad de Chile: [f19k8uwcjnlfqcg77xuwoqhd6]
+            Unión Española-Audax Italiano: [8plzz7vz2lg9byh78irsncm7e]
+            Barnechea-Curicó Unido: [8pvc3n7qkdrc7qy0tgsur2a22]
+            Universidad de Chile-Colchagua: [f14w3zn8u5achy6ntbpkifmne]
+            Deportes Valdivia-Puerto Montt: [7x3b7uz62o95wr58nvuvphd9m]
+            Cobresal-Ñublense: [aj0oj8j9u9hop69azrne1w0a2]
+            Palestino-Unión La Calera: [f0vt2joyuj4ymgosf7c6r0ciy]
+            Copiapó-Huachipato: [7x6rm6qj825s99j054472510q]
+            Audax Italiano-Unión Española: [14ie45ant3rejv2brmsp2bazu]
+            Cobreloa-San Marcos: [14fk8ecv6ofxsi5fns7qg1zl6]
+            Curicó Unido-Barnechea: [14bt519pi7rrkv2acjbr2naei]
+            }
+Segunda Fase: {
+            Colo Colo-Ñublense: [41qgrygia1qp02boac8aar7u2]
+            Unión La Calera-Magallanes: [41yjog9ep9mabwcluykrpayju]
+            O'Higgins-Colchagua: [42w7l0e0f9e1e6sm5zp45c0h6]
+            Audax Italiano-Coquimbo Unido: [42qcgguhoq6jm3ldkofx6qane]
+            San Luis-Barnechea: [42t3lzttu87i5fibklcbcqnoq]
+            Universidad Católica-Cobreloa: [42ncw6qt6f5j618rzzq8fhr3e]
+            Colchagua-O'Higgins: [1bozgpy5cmvk0e46z90d4lqp6]
+            Magallanes-Unión La Calera: [1av310yp4pgns1g17wx0aa54a]
+            Deportes Iquique-San Marcos: [42klqre1z9dmfcigr9xn0es8a]
+            Huachipato-Rangers: [41mxw5oa2gls3oclxu9uqdylm]
+            Universidad de Chile-La Serena: [4278l33d362wn14qjuagyhzze]
+            Curicó Unido-Independiente: [424a90ih8ezyf6htzgmzg9ffu]
+            Deportivo Antofagasta-Copiapó: [42hhanoox3okjhouv63h0i92i]
+            Universidad Concepción-Puerto Montt: [41vsdywi87gr94sccvb81oewa]
+            Deportes Temuco-Deportes Valdivia: [421eoxorbzig4ke3zq41wl5d6]
+            Palestino-Santiago Wanderers: [41t2kd84yxhaclbkzw8w8vnu2]
+            Everton-Cobresal: [42emf7u4icym1neeo3wghnpm2]
+            Unión Española-General Velásquez: [42bffhnl734ysmvj2krcw8j1m]
+            Barnechea-San Luis: [1bkl587cjhziqejrjc3kzkga2]
+            Rangers-Huachipato: [1aiz6va1ypf9khct32arwjp7u]
+            Coquimbo Unido-Audax Italiano: [1bg9bg8cdz1u7yq1lxjwihap6]
+            Independiente-Curicó Unido: [47yenz42r6d674wm2b80ottgq]
+            Cobreloa-Universidad Católica: [1bc8mn4gj7t0bnsh7efqstbai]
+            San Marcos-Deportes Iquique: [1b994pq94i6ea5x3z9jgx8m0a]
+            General Velásquez-Unión Española: [1b3fjf7sa8chmqwyd4hxjaf6y]
+            Cobresal-Everton: [47u1jgq1kmlh1r7y2twtzhvu2]
+            Deportes Valdivia-Deportes Temuco: [1axuwbgmuituf3tjt6i4jhgtm]
+            La Serena-Universidad de Chile: [1b0mf58swy1dzg1xj5bxfxsoa]
+            Copiapó-Deportivo Antofagasta: [1b6b76r9siwvqt1x6bh0swine]
+            Puerto Montt-Universidad Concepción: [1aselv263777vrht7z9d9tvmy]
+            Ñublense-Colo Colo: [1amra3of8bl71e0zckr1k6jxm]
+            Santiago Wanderers-Palestino: [1aphomrg9kuhur3z1ffrjndd6]
+            }
+Primera Fase: {
+            La Serena-Lautaro de Buin: [ci9jyte9melw4ajdm3kgx27ai]
+            Santiago Morning-Independiente: [cioyfan5engzsqzkry7euhz6y]
+            San Marcos-Deportes Vallenar: [civfhdbycxxmwn8h627qrqooa]
+            Coquimbo Unido-Recoleta: [ci3rkht7csowk8c34pzuepfu2]
+            Independiente-Santiago Morning: [dmvpi5khlw74exp7fte1rp1ey]
+            Cobresal-San Antonio Unido: [chzxyoa36korwrz41km4gj2ay]
+            Ñublense-Fernández Vial: [chqs1ls0dfafy8rupv93j3cru]
+            Magallanes-Tomás Greig: [cilydh6ie63le01jl32fnsyui]
+            Barnechea-Deportes Santa Cruz: [cifbul4vbh2a8lrgrhlh8mlii]
+            Puerto Montt-Malleco Unido: [cj1e7u56vu03fv82vh004gl0q]
+            Rangers-Iberia: [ciyey3euuj5cx1fphnwry8mlm]
+            Santiago Wanderers-Municipal Santiago: [ci6naxd9vmm9i1l2vq8fcvhii]
+            Melipilla-General Velásquez: [cii5b20a3xsf5twz0cj3u7uy2]
+            Unión San Felipe-Colchagua: [cicj4ezdhty5zgoxp579v536y]
+            Cobreloa-Provincial Ovalle: [chu2pk8acyjs7y8qhd7y5uuei]
+            Copiapó-Deportes Limache: [chx4tfbdfnhfesigmms6k8acq]
+            Deportes Santa Cruz-Barnechea: [dn4vhc13x89skd8agtwi4k1uy]
+            Deportes Valdivia-Linares Unido: [ciru23m9l8ck3dltbun8v9une]
+            Recoleta-Coquimbo Unido: [dnf6f7zp2bfmncp384xmvz04q]
+            General Velásquez-Melipilla: [dn1xykk8ll4xuo4ff7tpq546i]
+            Fernández Vial-Ñublense: [dmebuxji2icvjb6vdwak4ykx6]
+            Colchagua-Unión San Felipe: [dn7sbksgaep9ttbuygy738j8q]
+            Deportes Vallenar-San Marcos: [dmp5ur5z8mjgg6p6tlew39x0q]
+            Iberia-Rangers: [dmkuahfrwuupu1fkvr6blpjze]
+            Malleco Unido-Puerto Montt: [dns5k83lzlyc0cgfv9b7dqnhm]
+            Provincial Ovalle-Cobreloa: [dnp8ngveavubdfainiovzxai2]
+            San Antonio Unido-Cobresal: [dnibx3hys66yvgiu3l7ktm8oa]
+            Deportes Limache-Copiapó: [dnlzh576f7c1zgj5m76kox2ei]
+            Tomás Greig-Magallanes: [dmyx6atyxah3bk1qu4gg1xa3u]
+            Linares Unido-Deportes Valdivia: [dmsnv0m0vozrb00epbcdjay5m]
+            Lautaro de Buin-La Serena: [dnb9yce6mu2lkyhtrkt0l0rxm]
+            Municipal Santiago-Santiago Wanderers: [chn04qypu1z771equyrue64iy]
+            }

@@ -1,0 +1,97 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 29 18:45:03 2020
+
+@author: Casa
+"""
+
+{
+    "competition": {
+        "id": "eu2g5j36zzxiazpd729osx0wm",
+        "name": "Copa Chile",
+        "competitionCode": "COC",
+        "competitionFormat": "Domestic cup",
+        "lastUpdated": "2019-01-30T23:49:59Z"
+    },
+    "tournamentCalendar": {
+        "id": "7f1fm21w06mqzzse85mvey9yh",
+        "name": "2017",
+        "startDate": "2017-07-09Z",
+        "endDate": "2017-11-11Z",
+        "lastUpdated": "2019-01-30T23:49:59Z"
+
+
+              
+"""ID Partidos Copa Chile 2017: 
+    
+Final: {U.de Chile-Santiago Wanderers: [7nuhxwtf6rf4jzgrl5ek8kiga]}
+
+Semifinal:{
+           Universidad de Chile-Deportivo Antofagasta: [5rzrl6rjndlqyn6gooev1a4iy]
+           Santiago Wanderers-Huachipato: [5rwx1l87l3q07sb0c85cjgbqi]
+           Deportivo Antofagasta-Universidad de Chile: [5rt7x3m06lzuz9id9kw4yj52i]
+           Huachipato-Santiago Wanderers: [5s2nd01cw619gcb279sx25v1m]
+           }
+Cuartos de final: {
+        Iberia-Santiago Wanderers: [cw6ve6scbbbxgky8p6woo6gru]
+        San Luis-Universidad de Chile: [cw0xakq6qsinzo5s02vo9v1ii]
+        Unión San Felipe-Huachipato: [cw3v293q82lkv1sutqrgqcc4q]
+        Curicó Unido-Deportivo Antofagasta: [cvwg8kcv4o6omckych19pukx6]
+        Universidad de Chile-San Luis: [cwk5dj6t5ybkr2xs8s475j8fe]
+        Deportivo Antofagasta-Curicó Unido: [cwgjlmklgz3auxhyu1whsqfsa]
+        Huachipato-Unión San Felipe: [cwddbx2ydcjcyknyss8sauooa]
+        Santiago Wanderers-Iberia:[cw9w5ahe89752clhcrgrbnbsa]
+        
+        }
+Octavos de final:{
+        Huachipato-Universidad Católica: [3y1fsgrsed0zoqehuu0fv5kkq]
+        Deportivo Antofagasta-San Marcos: [3wvx8imcnxp74nid32dufsy22]
+        Santiago Wanderers-"O'Higgins: [3xmvuonp2ow129zdg6azomdm2]
+        Colo Colo-Iberia: [3xfj0mozoalw0u7fyej87lkkq]
+        Universidad de Chile-Audax Italiano: [3x518b9femyvt4abxno6zhiei]
+        Palestino-Curicó Unido: [3x0o302f4bsht7o22fkykse3u]
+        Coquimbo Unido-San Luis: [3x9gwb7yq6zvf98xwcsgv2wyy]
+        O'Higgins-Santiago Wanderers: [3wd6tn6876w6euqs7e9lm34a2]
+        Iberia-Colo Colo: [3w613d5wj620fje5l2vn1t6cq]
+        Unión San Felipe-Deportes Temuco: [3xw0blicxboryyzweneetvxwq]
+        Audax Italiano-Universidad de Chile: [3vw1tlodzfjx6awi7tgfq64iy]
+        Curicó Unido-Palestino: [3vrjvduwa6e8anm3s28jhngx6]
+        San Marcos-Deportivo Antofagasta: [3vn58etf97g7tvl2dhd2cx9ii]
+        Universidad Católica-Huachipato: [3wow087k8c2ozrowgyc98u8h6]
+        San Luis-Coquimbo Unido: [3w13e6uvrwycup0e7izm5q6wa]
+        Deportes Temuco-Unión San Felipe: [3wkmyhhhpuyf0y6i91diop4dm]
+        }
+Primera Ronda: {
+        Universidad Católica-Rangers: [17xpr0p6mx4f8q5xgp02bs9ka]
+        Colo Colo-La Serena: [17cwanpgwf6koynte64ntgn6y]
+        Santiago Morning-O'Higgins: [57mpsbuu4wf1mu2u5g54oj3vu]
+        Deportivo Antofagasta-Cobreloa: [188krmhsi7nx3aget9p7kq9gq]
+        Palestino-Unión La Calera: [17mhqm35ef7gnx4yw7l9059be]
+        Deportes Iquique-San Marcos: [17fcqs4rv921acdjiad8nc6ei]
+        Audax Italiano-Barnechea: [17riuo6i84s0c2hqtpr4hismi]
+        Universidad Concepción-Iberia: [175iq646f3f431dkzobmp2wkq]
+        Universidad de Chile-Ñublense: [185yzz1d8d41ywlyum09dl94a]
+        Curicó Unido-Magallanes: [17jxnxrwtcjwh1dahgxg6dboq]
+        San Luis-Copiapó: [1788u1cjx5u940jx340q8dvu2]
+        O'Higgins-Santiago Morning: [17ooipod2u6xi9zzerba010tm]
+        Unión Española-Unión San Felipe: [182woy79wjq5rppwwhvzlaw6i]
+        Deportes Temuco-Puerto Montt: [180b9bgis03rx3hxni2rstjze]
+        Huachipato-Deportes Valdivia: [17u3deq261mgnqc2hona762qy]
+        Everton-Coquimbo Unido: [17hinc64g6r6ki19e7zz8tr3e]
+        Santiago Wanderers-Cobresal: [17a1sof4mjxc719xapm9kj3vu]
+        Magallanes-Curicó Unido: [57j2xzbq9lzdxol5g053ttmy2]
+        Unión San Felipe-Unión Española: [57xlqtws79n9g61uh6qz7j4ve]
+        Cobreloa-Deportivo Antofagasta: [5811c3iqxwxk0tlf8q5x6nnu2]
+        San Marcos-Deportes Iquique: [57ddiqonvwvl3p1ze3gzbaicq]
+        Copiapó-San Luis: [574fslfxntvyksmbiy0o103fu]
+        Ñublense-Universidad de Chile: [57zh3htpfg03ynxv80747mpnu]
+        Iberia-Universidad Concepción: [570o3q1cl6uhqyyxzz4v3ktpm]
+        Coquimbo Unido-Everton: [57gtek3c5hjkmu8oo6n2fjjvu]
+        Unión La Calera-Palestino: [57krkpaf2ucmzezpmkzjsj3vu]
+        Puerto Montt-Deportes Temuco: [57vz31z7zjgjl2f6h8bedyr1m]
+        Cobresal-Santiago Wanderers: [576xf3o725z61jngq5ae32l4a]
+        Barnechea-Audax Italiano: [57pisahu2fq4mbn0zfytg5p4a]
+        Deportes Valdivia-Huachipato: [57rjgdtanaibv6h4tlrj2lcve]
+        La Serena-Colo Colo: [57abmcvdi8ygv0ktsrz7ds222]
+        Rangers-Universidad Católica: [57t8eiihctp1w6ux0tskoc67e]
+        }

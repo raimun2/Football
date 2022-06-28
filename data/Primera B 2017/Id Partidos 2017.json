@@ -1,0 +1,158 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May  1 12:27:43 2020
+
+@author: Casa
+"""
+"""
+ID Partidos Primera B 2017:
+
+Fecha 1: {
+        Puerto Montt-Rangers: [xa65k1on2lqpj3k2j45igx9m]
+        La Serena-Iberia: [xdii896538756vg97958723u]
+        Santiago Morning-Magallanes: [x3j134funymqfrv36va6mesq]
+        Deportes Valdivia-Coquimbo Unido: [wmeya7bdadf15na32qykpene]
+        Ñublense-Copiapó: [wj7b4zz2c08kclm2wo7hp4yy]
+        Cobresal-Unión La Calera: [x0f85wmpqordbv34bd4i4e3u]
+        San Marcos-Barnechea: [x6qu3zmn4iygcqvvtgebrasq]
+        Unión San Felipe-Cobreloa: [wfetczp9y0vey5q1ymwg5t2i]
+        }
+Fecha 2: {
+       Magallanes-Ñublense: [xuclvmq6xg9flk79cqchn9t6]
+       Copiapó-Puerto Montt: [xzwyyksz99aqh3fq2rd76jca]
+       Barnechea-La Serena: [xmiyr7r21sgv0w6lu58i7gq2]
+       Rangers-Unión San Felipe: [xp9tg5oehhplt8gb4644h0tm]
+       Coquimbo Unido-Cobresal: [xjxzv0zbx3s4kc139z9ftene]
+       Iberia-Deportes Valdivia: [xx83av84qs7xpmsmy4gwvj3e]
+       Cobreloa-San Marcos: [xfzgdbm9yaglyxz456n3y63u]
+       Unión La Calera-Santiago Morning: [xrqtuip7kb17550x8vkf0jmy]
+       }
+Fecha 3: {
+        Puerto Montt-Iberia: [yo9sni0wk2qmomllfy5f9x0q]
+        La Serena-Unión La Calera: [ycfy1fwxj79zbmu5o9jtlwtm]
+        Unión San Felipe-Magallanes: [yflt9o5aykkw2n27p1z06smi]
+        Deportes Valdivia-Cobreloa: [y2j15ekq3zfs3i3vm2rzc4tm]
+        Santiago Morning-Barnechea: [yimbidnswx3zsm4jqe442z56]
+        Ñublense-Rangers: [ylfaht8tuq8lz18mxhispg8a]
+        Copiapó-Cobresal: [y54od1pi0vedipafr28zluui]
+        San Marcos-Coquimbo Unido: [y7tvh78gizmakgqu7eh5dx7u]
+        }
+Fecha 4: {
+-       Magallanes-Puerto Montt: [zdaflqpn6vz3cmjfqzq3iqne]
+        Barnechea-Copiapó: [yvl6ck5fr970zuj7l8pm9sh6]
+        Coquimbo Unido-Ñublense: [z7f6ccvnjo9gvdxtnz0theui]
+        La Serena-San Marcos: [yr965xnx6ga7q0i2eeb876ui]
+        Iberia-Unión San Felipe: [yyebm5wrk9o2uxj419ocqgkq]
+        Cobresal-Deportes Valdivia: [za4vqjiydih0v9y3ov6bjhii]
+        Cobreloa-Santiago Morning: [z1dje21xqx2ttcuokrnsu99m]
+        Unión La Calera-Rangers: [z45zvrznrap6i7924yv380a2]
+        }
+Fecha 5: {
+        Copiapó-Magallanes: [zs74dltnqb3lmz07arzbnxwq]
+        Santiago Morning-Iberia: [zx2mmh0cqyg2gv52anov3vqi]
+        Puerto Montt-Deportes Valdivia: [zzh5xogc3qjqmalcfw73hhm2]
+        Ñublense-Cobreloa: [zg4g489qf1bu3wdv1ux9ndre]
+        Unión San Felipe-Unión La Calera: [zpdkmbajswkiwzbzxr1psh2i]
+        San Marcos-Cobresal: [ziwvkear9a74lnrpmm3efeqy]
+        Coquimbo Unido-Barnechea: [zuo8urku4035qkgc083rqxd6]
+        Rangers-La Serena: [zlm5je7l222fftm8maq6ia96]
+        }
+Fecha 6: {
+        Unión La Calera-Puerto Montt: [10mm7d0ofko96qqc4e9p821yi]
+        Santiago Morning-San Marcos: [101y0x0rqne0foett95w45lyi]
+        Barnechea-Rangers: [10h40492smd3soa4cka8h4eay]
+        La Serena-Magallanes: [10ee9duggk8pb6anfsozuqdt6]
+        Cobreloa-Copiapó: [1068b65drp7i0n6tb2i862vl6]
+        Deportes Valdivia-Unión San Felipe: [10bprtqomqcwdy31ygrk08j1m]
+        Cobresal-Ñublense: [10jwp0beun84aknoeimritlyi]
+        Iberia- Coquimbo Unido: [1090vlz29v76ybu7mu0lgsvhm]
+Fecha 7:{
+        Unión San Felipe-Cobresal: [10s9ne0yiigmjx6ep3lm0zp7u]
+        Copiapó-Santiago Morning: [110aiw6omm45741k5z3jxknsa]
+        Magallanes-Barnechea: [11431n6osmzr7732rvsss254a]
+        Puerto Montt-La Serena: [10uv0uw1e7zak07is9obvk222]
+        Coquimbo Unido-Cobreloa: [10pcrstyl558ucfxevshnxbai]
+        Rangers-Iberia: [116rucunvfrjus1lay4698vhm]
+        Ñublense-Unión La Calera: [10xjh71gq1n2w94mvk7i6t9be]
+        San Marcos-Valdivia: [119b5k737deqxlreftd0k448a]
+        }
+Fecha 8:{
+        Santiago Morning-Rangers: [11qv081asulnz93l0o1b9w12i]
+        Iberia-Magallanes: [11lofxa6xyy7gc46dopwdvdd6]
+        La Serena-Copiapó: [11e0xlxy0ewdbseoaau5h8up6]
+        Unión La Calera-Coquimbo Unido: [11gg6b82dj11i89ey6nw7do4q]
+        Deportes Valdivia-Ñublense: [11v200jtoht1fzxgvjm93850q]
+        Cobresal-Barnechea: [11ob01jvyftilyrwuir4132wa]
+        Cobreloa-Puerto Montt: [11yv1hdd5z13dd2rctony0zmy]
+        San Marcos-Unión San Felipe: [11j1z8zbxyfpwhca32gv0cxuy]
+        }
+Fecha 9: {
+        Barnechea-Deportes Valdivia: [12o9ks1hdqewkabcfsiuakzfu]
+        Copiapó-San Marcos: [123a61oxfrqvggk9u3ki0pca2]
+        Magallanes-Unión La Calera: [12fhxlqa303i3bd0vvm5i6wyy]
+        Puerto Montt-Santiago Morning: [12iskymqvgg93s9ka10jxg0a2]
+        Ñublense-La Serena: [12ctke8kuotyxnoydjf2nqvsa]
+        Cobreloa-Iberia: [12lkgdlznghblzzi9tyu1sl0q]
+        Unión San Felipe-Coquimbo Unido: [129p98hf2622jzfrnxtdlclt6]
+        Rangers-Cobresal: [126i8b79cqf8shs7bpjdkwmlm]
+        }
+Fecha 10: {
+        Deportes Valdivia-Magallanes: [131ewdvk3l9c50q8r3b4hp46i]
+        Santiago Morning-La Serena: [12yjk54ihuyvu4u11er465oq2]
+        Iberia-Barnechea: [1346epy6g8f1re4d0qqm7melm]
+        Coquimbo Unido-Rangers: [136tw00qcl76q5gyd6m8i4kfe]
+        Unión La Calera-Copiapó: [12vq2edmgqlcoaizxzu5iu3ca]
+        Cobresal-Cobreloa: [12sg406s4u64x15f9gcfhes16]
+        San Marcos-Ñublense: [139lt70d4y4wg79kzj2ueufze]
+        Unión San Felipe-Puerto Montt: [13c9g1fnlv5m8vwqj60qyl46i]
+Fecha 11: {
+        Barnechea-Cobreloa: [13hfgonkxf6n3lffotp3po1gq]
+        Magallanes-Cobresal: [13lkakn4v49byn8d2miqhsxnu]
+        Copiapó-Unión San Felipe: [13qxox7m51sli83clli7z0zfu]
+        Unión La Calera-Iberia: [13wb9u6yzzh8bjjrpwjmwpilm]
+        Puerto Montt-San Marcos: [13esmlxb258iq35gwyeuus8yy]
+        Rangers-Deportes Valdivia: [13ywa26cpf8oy94hjja0jbl2i]
+        La Serena-Coquimbo Unido: [13o3l4xzb8rz5ulopaqqms12i]
+        Ñublense-Santiago Morning: [13touri27hs4gqn36ruoxxgfe]
+        }
+Fecha 12: {
+        Unión San Felipe-Santiago Morning: [14ff8id7x099g3ukp8se580oa]
+        Barnechea-Ñublense: [14latzpvymwjxn2wjdwfbrsyy]
+        Iberia-Copiapó: [1449nrhkkl1p3l3jeh6bklisq]
+        Deportes Valdivia-Unión La Calera: [149mwjwzswy3bv7ew35v2n0x6]
+        Cobresal-La Serena: [14713e9iqx86sg4xray9xn2p6]
+        Cobreloa-Magallanes: [14cooei399jyrke4hiwpcerfu]
+        San Marcos-Rangers: [14idn83yogacf7fpk3g07sokq]
+        Coquimbo Unido-Puerto Montt: [14o1nqqhk8q3evisgvl2jd17u]
+        }
+Fecha 13: {
+        Unión La Calera-Barnechea: [156rme6wg7230zmlprpqxqh62]
+        Magallanes-San Marcos: [14r0bwdjcvdbldq3j3u1iuvsa]
+        Copiapó-Coquimbo Unido: [1514oqubnx8r3ehpru1k808dm]
+        Santiago Morning-Deportes Valdivia: [15epnucdbh9hp1yc7dgfork2y]
+        Puerto Montt-Cobresal: [14y5h5rzchw0whcre0mhpnalm]
+        Iberia-Ñublense: [159mlhottzudr591x417s90fe]
+        Rangers-Cobreloa: [14txqp3mbh2z67em50en2rofe]
+        La Serena-Unión San Felipe: [153v0fibvt1tk897ntik5a63u]
+        }
+Fecha 14: {
+        Barnechea-Unión San Felipe: [15n3r72q2371or7n09z8y53e2]
+        Rangers-Magallanes: [15snttmzqv9qb5qxjtakzf9t6]
+        Coquimbo Unido-Santiago Morning: [15vejz51n120qc9b3di6nw5ey]
+        Deportes Valdivia-Copiapó: [15hl3xzxsy4dtjjtfqchttroq]
+        Cobreloa-La Serena: [15kc3czuxgfjxcgwbm781kwh6]
+        Cobresal-Iberia: [15y3e7n42uszcu27a2j7x3pt6]
+        Ñublense-Puerto Montt: [160uzdpe6y7iahox0x1r53yi2]
+        San Marcos-Unión La Calera: [15pu7f6lq8x2h6t11z9it7pm2]
+        }
+Fecha 15: {
+        Copiapó-Rangers: [16hvpnbz6i4ises9nsnarcacq]
+        Puerto Montt-Barnechea: [16ewjbi2ium2a86hn10jgjsdm]
+        Santiago Morning-Cobresal: [169hlblw29apy0xc9xgjp0lm2]
+        Magallanes-Coquimbo Unido: [16c739stttqnnm9gz0oaejgx6]
+        Iberia-San Marcos: [163zl09q4xx6dw0xzdhtfv90q]
+        Unión San Felipe-Ñublense: [16lng2uqrxreowiptemt546ei]
+        La Serena-Deportes Valdivia: [16sqeaz380z1kpxo8q8sya6p6]
+        Unión La Calera-Cobreloa: [166pirqd4z88hyqv4m7layyqy]
+        }
+              

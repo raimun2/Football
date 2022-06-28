@@ -1,0 +1,2296 @@
+{
+    "matchInfo": {
+        "id": "8kry9r3ehqic879su3qempu22",
+        "coverageLevel": "13",
+        "date": "2020-03-07Z",
+        "time": "14:00:00Z",
+        "lastUpdated": "2020-04-29T10:11:12Z",
+        "description": "Scotland vs Iceland",
+        "sport": {
+            "id": "289u5typ3vp4ifwh5thalohmq",
+            "name": "Soccer"
+        },
+        "ruleset": {
+            "id": "9ffd12azthtms8r1d1bpnb7wa",
+            "name": "Women"
+        },
+        "competition": {
+            "id": "16mfkt95bh7o8gmvtnzs526i2",
+            "name": "Pinatar Cup",
+            "competitionCode": "PIN",
+            "competitionFormat": "International cup",
+            "country": {
+                "id": "7yasa43laq1nb2e6f8bfuvxed",
+                "name": "World"
+            }
+        },
+        "tournamentCalendar": {
+            "id": "3i498gqomapnjaozylqwutylm",
+            "startDate": "2020-03-04Z",
+            "endDate": "2020-03-10Z",
+            "name": "2020"
+        },
+        "stage": {
+            "id": "5ezxznarct7pkjj9q7uggorqi",
+            "formatId": "86p6pz5rcsdbz4cklvfwtzrv9",
+            "startDate": "2020-03-04Z",
+            "endDate": "2020-03-10Z",
+            "name": "Group Stage"
+        },
+        "contestant": [
+            {
+                "id": "a2b820asqu5g583s4bc9rftrl",
+                "name": "Scotland",
+                "shortName": "Scotland",
+                "officialName": "Scotland",
+                "code": "SCO",
+                "position": "home",
+                "country": {
+                    "id": "1xf68d0a8lnnq30hnnn8kr6ut",
+                    "name": "Scotland"
+                }
+            },
+            {
+                "id": "aewmai6kvk2mousj7x17ivnc3",
+                "name": "Iceland",
+                "shortName": "Iceland",
+                "officialName": "Iceland",
+                "code": "ISL",
+                "position": "away",
+                "country": {
+                    "id": "4jjsm5a20nnxgw5cus6b7yxc6",
+                    "name": "Iceland"
+                }
+            }
+        ],
+        "venue": {
+            "id": "af8w0l7wkcbi7sb0ztucw2siz",
+            "neutral": "no",
+            "longName": "Pinatar Arena Football Center",
+            "shortName": "Pinatar Arena Football Center"
+        }
+    },
+    "liveData": {
+        "matchDetails": {
+            "periodId": 14,
+            "matchStatus": "Played",
+            "winner": "home",
+            "matchLengthMin": 97,
+            "matchLengthSec": 2,
+            "period": [
+                {
+                    "id": 1,
+                    "start": "2020-03-07T14:00:23Z",
+                    "end": "2020-03-07T14:48:23Z",
+                    "lengthMin": 48,
+                    "lengthSec": 0
+                },
+                {
+                    "id": 2,
+                    "start": "2020-03-07T15:05:25Z",
+                    "end": "2020-03-07T15:54:27Z",
+                    "lengthMin": 49,
+                    "lengthSec": 2
+                }
+            ],
+            "scores": {
+                "ht": {
+                    "home": 0,
+                    "away": 0
+                },
+                "ft": {
+                    "home": 1,
+                    "away": 0
+                },
+                "total": {
+                    "home": 1,
+                    "away": 0
+                }
+            }
+        },
+        "goal": [
+            {
+                "contestantId": "a2b820asqu5g583s4bc9rftrl",
+                "periodId": 2,
+                "timeMin": 55,
+                "timeMinSec": "54:50",
+                "lastUpdated": "2020-03-07T15:15:18Z",
+                "timestamp": "2020-03-07T15:15:16Z",
+                "type": "G",
+                "scorerId": "dg4urp2frtf72el6t9tittl1x",
+                "scorerName": "A. Grant",
+                "assistPlayerId": "d5pwwuv8kxd3mdgt7by55k5m2",
+                "assistPlayerName": "R. Boyle",
+                "optaEventId": "2189323855",
+                "homeScore": 1,
+                "awayScore": 0
+            }
+        ],
+        "substitute": [
+            {
+                "contestantId": "aewmai6kvk2mousj7x17ivnc3",
+                "periodId": 2,
+                "timeMin": 71,
+                "timeMinSec": "70:28",
+                "lastUpdated": "2020-03-07T15:30:12Z",
+                "timestamp": "2020-03-07T15:30:54Z",
+                "playerOnId": "7wjcdkfckydb545bv6pybzavp",
+                "playerOnName": "E. Vidarsdóttir",
+                "playerOffId": "6vt2ev4niozpu1zrs8apyrwt1",
+                "playerOffName": "E. Jensen",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "aewmai6kvk2mousj7x17ivnc3",
+                "periodId": 2,
+                "timeMin": 71,
+                "timeMinSec": "70:29",
+                "lastUpdated": "2020-03-07T15:30:36Z",
+                "timestamp": "2020-03-07T15:30:54Z",
+                "playerOnId": "3yb4zwodejg6ohd9xippme0np",
+                "playerOnName": "S. Jessen",
+                "playerOffId": "fyywt08yxhf0h6tazd27ymdx",
+                "playerOffName": "S. Garðarsdóttir",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "aewmai6kvk2mousj7x17ivnc3",
+                "periodId": 2,
+                "timeMin": 72,
+                "timeMinSec": "71:30",
+                "lastUpdated": "2020-03-07T15:31:00Z",
+                "timestamp": "2020-03-07T15:31:55Z",
+                "playerOnId": "44p08essulk95whu21qdo6ggl",
+                "playerOnName": "S. Guðmundsdóttir",
+                "playerOffId": "deg1v8i7tm0x2lybs486ccn9x",
+                "playerOffName": "N. Anasi",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "a2b820asqu5g583s4bc9rftrl",
+                "periodId": 2,
+                "timeMin": 77,
+                "timeMinSec": "76:28",
+                "lastUpdated": "2020-03-07T15:36:21Z",
+                "timestamp": "2020-03-07T15:36:59Z",
+                "playerOnId": "avttb0ne86ra4pqruk0d8al05",
+                "playerOnName": "L. Graham",
+                "playerOffId": "9i7w9e580arjgwi09oard5byt",
+                "playerOffName": "C. Murray",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "a2b820asqu5g583s4bc9rftrl",
+                "periodId": 2,
+                "timeMin": 77,
+                "timeMinSec": "76:36",
+                "lastUpdated": "2020-03-07T15:36:32Z",
+                "timestamp": "2020-03-07T15:37:01Z",
+                "playerOnId": "2tr7xhh5kwc1hv181hzsngxjp",
+                "playerOnName": "E. Arnot",
+                "playerOffId": "dg4urp2frtf72el6t9tittl1x",
+                "playerOffName": "A. Grant",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "aewmai6kvk2mousj7x17ivnc3",
+                "periodId": 2,
+                "timeMin": 86,
+                "timeMinSec": "85:22",
+                "lastUpdated": "2020-03-07T15:45:07Z",
+                "timestamp": "2020-03-07T15:45:48Z",
+                "playerOnId": "dakakvems200aahpv29v22eol",
+                "playerOnName": "F. Friðriksdóttir",
+                "playerOffId": "9ov9x5gap2t34kv8clhwjqvh1",
+                "playerOffName": "D. Brynjarsdóttir",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "aewmai6kvk2mousj7x17ivnc3",
+                "periodId": 2,
+                "timeMin": 86,
+                "timeMinSec": "85:31",
+                "lastUpdated": "2020-03-07T15:45:17Z",
+                "timestamp": "2020-03-07T15:45:57Z",
+                "playerOnId": "5f4cglhi9bgrwdqj27cgft39x",
+                "playerOnName": "A. Albertsdóttir",
+                "playerOffId": "yryrpvnz6vinthb55e0lkut",
+                "playerOffName": "R. Honnudottir",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "aewmai6kvk2mousj7x17ivnc3",
+                "periodId": 2,
+                "timeMin": 87,
+                "timeMinSec": "87:00",
+                "lastUpdated": "2020-03-07T15:47:17Z",
+                "timestamp": "2020-03-07T15:47:25Z",
+                "playerOnId": "4l0t0twvkms04gm3w3b2xvhsl",
+                "playerOnName": "B. Agustsdottir",
+                "playerOffId": "41zohhwv521e5ip9f6xw0b00l",
+                "playerOffName": "I. Sigurðardóttir",
+                "subReason": "Tactical"
+            }
+        ],
+        "lineUp": [
+            {
+                "contestantId": "a2b820asqu5g583s4bc9rftrl",
+                "formationUsed": "4231",
+                "player": [
+                    {
+                        "playerId": "17dhbdki75vb64q9a3vvedej9",
+                        "firstName": "Lee",
+                        "lastName": "Alexander",
+                        "matchName": "L. Alexander",
+                        "shirtNumber": 1,
+                        "position": "Goalkeeper",
+                        "positionSide": "Centre",
+                        "formationPlace": "1",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "15"
+                            },
+                            {
+                                "type": "goalKicks",
+                                "value": "9"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "25"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "16gnoas9x34hm887omkmeee39",
+                        "firstName": "Emma",
+                        "lastName": "Mitchell",
+                        "matchName": "E. Mitchell",
+                        "shirtNumber": 3,
+                        "position": "Defender",
+                        "positionSide": "Left",
+                        "formationPlace": "3",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "44"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "17"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "58"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "3"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "3"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "dw2a5y50m5vbzpy53w2e7n179",
+                        "firstName": "Rachel",
+                        "lastName": "Corsie",
+                        "matchName": "R. Corsie",
+                        "shirtNumber": 4,
+                        "position": "Defender",
+                        "positionSide": "Left/Centre",
+                        "formationPlace": "6",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "75"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "94"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "3"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "6"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "27p8qc64x7plz62xfu9p6ow2y",
+                        "firstName": "Hannah",
+                        "lastName": "Godfrey",
+                        "matchName": "H. Godfrey",
+                        "shirtNumber": 25,
+                        "position": "Defender",
+                        "positionSide": "Centre/Right",
+                        "formationPlace": "5",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "54"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "62"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "5"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "d5pwwuv8kxd3mdgt7by55k5m2",
+                        "firstName": "Rachael",
+                        "lastName": "Boyle",
+                        "matchName": "R. Boyle",
+                        "shirtNumber": 6,
+                        "position": "Defender",
+                        "positionSide": "Right",
+                        "formationPlace": "2",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "42"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "16"
+                            },
+                            {
+                                "type": "goalAssist",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "58"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "ei61hdd60p33ma7vddh1bl3o5",
+                        "firstName": "Leanne",
+                        "lastName": "Crichton",
+                        "matchName": "L. Crichton",
+                        "shirtNumber": 10,
+                        "position": "Defensive Midfielder",
+                        "positionSide": "Left/Centre",
+                        "formationPlace": "4",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "34"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "48"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "dgkmt7f5k9oqruxzsi3x9em6t",
+                        "firstName": "Caroline",
+                        "lastName": "Weir",
+                        "matchName": "C. Weir",
+                        "shirtNumber": 9,
+                        "position": "Defensive Midfielder",
+                        "positionSide": "Centre/Right",
+                        "formationPlace": "8",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "76"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "85"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "3"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "8"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "18kiz7s5jlyotkb4p0sbbxyol",
+                        "firstName": "Claire",
+                        "lastName": "Emslie",
+                        "matchName": "C. Emslie",
+                        "shirtNumber": 18,
+                        "position": "Attacking Midfielder",
+                        "positionSide": "Left",
+                        "formationPlace": "11",
+                        "stat": [
+                            {
+                                "type": "blockedScoringAtt",
+                                "value": "2"
+                            },
+                            {
+                                "type": "accuratePass",
+                                "value": "37"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "47"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "3"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "4"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cornerTaken",
+                                "value": "7"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "11"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "9i7w9e580arjgwi09oard5byt",
+                        "firstName": "Christie",
+                        "lastName": "Murray",
+                        "matchName": "C. Murray",
+                        "shirtNumber": 16,
+                        "position": "Attacking Midfielder",
+                        "positionSide": "Centre",
+                        "formationPlace": "10",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "24"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "37"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "2"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "77"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "10"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "dg4urp2frtf72el6t9tittl1x",
+                        "firstName": "Abbi",
+                        "lastName": "Grant",
+                        "matchName": "A. Grant",
+                        "shirtNumber": 17,
+                        "position": "Attacking Midfielder",
+                        "positionSide": "Right",
+                        "formationPlace": "7",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "16"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "4"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "22"
+                            },
+                            {
+                                "type": "goals",
+                                "value": "1"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "2"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "77"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "7"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "cij18xj0bx2zyx3mi9xwykn9x",
+                        "firstName": "Erin",
+                        "lastName": "Cuthbert",
+                        "matchName": "E. Cuthbert",
+                        "shirtNumber": 22,
+                        "position": "Striker",
+                        "positionSide": "Centre",
+                        "formationPlace": "9",
+                        "stat": [
+                            {
+                                "type": "blockedScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "accuratePass",
+                                "value": "25"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "38"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "9"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "2tr7xhh5kwc1hv181hzsngxjp",
+                        "firstName": "Elizabeth",
+                        "lastName": "Arnot",
+                        "matchName": "E. Arnot",
+                        "shirtNumber": 23,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "6"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "13"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "17zv6w13g92uhwv0h6kzi0kb9",
+                        "firstName": "Nicola",
+                        "lastName": "Docherty",
+                        "matchName": "N. Docherty",
+                        "shirtNumber": 5,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "17d3p6fgwgo1qy38av9s4e85x",
+                        "firstName": "Jenna",
+                        "lastName": "Fife",
+                        "matchName": "J. Fife",
+                        "shirtNumber": 21,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "avttb0ne86ra4pqruk0d8al05",
+                        "firstName": "Lucy",
+                        "lastName": "Graham",
+                        "matchName": "L. Graham",
+                        "shirtNumber": 20,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "5"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "8"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "13"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "d3qtg5xhiwe3zamb4mh50whjp",
+                        "firstName": "Sophie",
+                        "lastName": "Howard",
+                        "matchName": "S. Howard",
+                        "shirtNumber": 15,
+                        "position": "Substitute",
+                        "subPosition": "Defender",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "5wswj1tehi9zmdzxrid4qj74l",
+                        "firstName": "Samantha",
+                        "lastName": "Kerr",
+                        "matchName": "S. Kerr",
+                        "shirtNumber": 24,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "3n7gowt345xjex22ljs2hg1jp",
+                        "firstName": "Hayley",
+                        "lastName": "Lauder",
+                        "matchName": "H. Lauder",
+                        "shirtNumber": 7,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "4i0wlz98zbdahmp8tws150i51",
+                        "firstName": "Shannon",
+                        "lastName": "Lynn",
+                        "matchName": "S. Lynn",
+                        "shirtNumber": 12,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "84jqref37rv84h6nw31jgos89",
+                        "firstName": "Amy",
+                        "lastName": "Muir",
+                        "matchName": "A. Muir",
+                        "shirtNumber": 14,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "evby1gm2puzpuzrj54oel4iqd",
+                        "firstName": "Jane",
+                        "lastName": "Ross",
+                        "matchName": "J. Ross",
+                        "shirtNumber": 13,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "9zdmc8v5sfrv9z7da49odn4a2",
+                        "firstName": "Martha",
+                        "lastName": "Thomas",
+                        "matchName": "M. Thomas",
+                        "shirtNumber": 19,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ],
+                "teamOfficial": {
+                    "id": "58fz8cdlms0810v4nsmj7w89h",
+                    "firstName": "Michelle 'Shelley'",
+                    "lastName": "Kerr",
+                    "type": "manager"
+                },
+                "stat": [
+                    {
+                        "fh": "1",
+                        "sh": "2",
+                        "type": "blockedScoringAtt",
+                        "value": "3"
+                    },
+                    {
+                        "fh": "255",
+                        "sh": "194",
+                        "type": "accuratePass",
+                        "value": "449"
+                    },
+                    {
+                        "fh": "3",
+                        "sh": "3",
+                        "type": "wonTackle",
+                        "value": "6"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "2",
+                        "type": "lostCorners",
+                        "value": "2"
+                    },
+                    {
+                        "fh": "5",
+                        "sh": "1",
+                        "type": "ontargetScoringAtt",
+                        "value": "6"
+                    },
+                    {
+                        "fh": "10",
+                        "sh": "7",
+                        "type": "totalScoringAtt",
+                        "value": "17"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "2",
+                        "type": "subsMade",
+                        "value": "2"
+                    },
+                    {
+                        "fh": "16",
+                        "sh": "19",
+                        "type": "totalThrows",
+                        "value": "35"
+                    },
+                    {
+                        "fh": "1",
+                        "sh": "8",
+                        "type": "goalKicks",
+                        "value": "9"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "1",
+                        "type": "goalAssist",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "331",
+                        "sh": "257",
+                        "type": "totalPass",
+                        "value": "588"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "1",
+                        "type": "goals",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "7",
+                        "sh": "3",
+                        "type": "fkFoulWon",
+                        "value": "10"
+                    },
+                    {
+                        "fh": "5",
+                        "sh": "6",
+                        "type": "totalTackle",
+                        "value": "11"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "3",
+                        "type": "totalOffside",
+                        "value": "3"
+                    },
+                    {
+                        "type": "cleanSheet",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "4",
+                        "sh": "4",
+                        "type": "shotOffTarget",
+                        "value": "8"
+                    },
+                    {
+                        "fh": "3",
+                        "sh": "5",
+                        "type": "fkFoulLost",
+                        "value": "8"
+                    },
+                    {
+                        "fh": "4",
+                        "sh": "3",
+                        "type": "wonCorners",
+                        "value": "7"
+                    },
+                    {
+                        "fh": "72",
+                        "sh": "60.3",
+                        "type": "possessionPercentage",
+                        "value": "66.4"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "9",
+                        "type": "totalClearance",
+                        "value": "9"
+                    },
+                    {
+                        "fh": "4",
+                        "sh": "3",
+                        "type": "cornerTaken",
+                        "value": "7"
+                    },
+                    {
+                        "type": "formationUsed",
+                        "value": "4231"
+                    }
+                ],
+                "kit": {
+                    "id": "5500",
+                    "colour1": "#000099",
+                    "type": "home"
+                }
+            },
+            {
+                "contestantId": "aewmai6kvk2mousj7x17ivnc3",
+                "formationUsed": "343",
+                "player": [
+                    {
+                        "playerId": "1h0j4hvuzrlqx1tz3girtil79",
+                        "firstName": "Sandra",
+                        "lastName": "Sigurðardóttir",
+                        "matchName": "Sandra Sigurðardóttir",
+                        "shirtNumber": 1,
+                        "position": "Goalkeeper",
+                        "positionSide": "Centre",
+                        "formationPlace": "1",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "29"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "saves",
+                                "value": "6"
+                            },
+                            {
+                                "type": "goalKicks",
+                                "value": "16"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "40"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "41zohhwv521e5ip9f6xw0b00l",
+                        "firstName": "Ingibjörg",
+                        "lastName": "Sigurðardóttir",
+                        "matchName": "I. Sigurðardóttir",
+                        "shirtNumber": 6,
+                        "position": "Defender",
+                        "positionSide": "Left/Centre",
+                        "formationPlace": "4",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "25"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "44"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "87"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "4"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "fpitimhwhx0wqkkrtuc10mvp",
+                        "firstName": "Glódís Perla",
+                        "lastName": "Viggósdóttir",
+                        "matchName": "G. Viggósdóttir",
+                        "shirtNumber": 4,
+                        "position": "Defender",
+                        "positionSide": "Centre",
+                        "formationPlace": "5",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "15"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "3"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "27"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "10"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "5"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "2nyteuqhg3tvltcdjmivfoyqx",
+                        "firstName": "Guðný",
+                        "lastName": "Árnadóttir",
+                        "matchName": "G. Árnadóttir",
+                        "shirtNumber": 2,
+                        "position": "Defender",
+                        "positionSide": "Centre/Right",
+                        "formationPlace": "6",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "19"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "5"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "33"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "6"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "6"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "9m17uf8dalrrzrkid99w6f6j9",
+                        "firstName": "Hallbera Guðný",
+                        "lastName": "Gísladóttir",
+                        "matchName": "H. Gísladóttir",
+                        "shirtNumber": 11,
+                        "position": "Midfielder",
+                        "positionSide": "Left",
+                        "formationPlace": "3",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "12"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "8"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "22"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cornerTaken",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "3"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "fyywt08yxhf0h6tazd27ymdx",
+                        "firstName": "Sigríður Lára",
+                        "lastName": "Garðarsdóttir",
+                        "matchName": "S. Garðarsdóttir",
+                        "shirtNumber": 8,
+                        "position": "Midfielder",
+                        "positionSide": "Left/Centre",
+                        "formationPlace": "8",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "16"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "24"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "71"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "2"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "8"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "deg1v8i7tm0x2lybs486ccn9x",
+                        "firstName": "Natasha",
+                        "lastName": "Anasi",
+                        "matchName": "N. Anasi",
+                        "shirtNumber": 24,
+                        "position": "Midfielder",
+                        "positionSide": "Centre/Right",
+                        "formationPlace": "7",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "7"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "16"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "72"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "7"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "d7wz4zcwkpup4n85zqpkvstsl",
+                        "firstName": "Gunnhildur Yrsa",
+                        "lastName": "Jónsdóttir",
+                        "matchName": "G. Jónsdóttir",
+                        "shirtNumber": 5,
+                        "position": "Midfielder",
+                        "positionSide": "Right",
+                        "formationPlace": "2",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "13"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "3"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "3"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "4"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "25"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "3"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "2"
+                            },
+                            {
+                                "type": "cornerTaken",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "yryrpvnz6vinthb55e0lkut",
+                        "firstName": "Rakel",
+                        "lastName": "Hönnudóttir",
+                        "matchName": "R. Honnudottir",
+                        "shirtNumber": 22,
+                        "position": "Striker",
+                        "positionSide": "Left/Centre",
+                        "formationPlace": "11",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "4"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "1"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "11"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "86"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "11"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "9ov9x5gap2t34kv8clhwjqvh1",
+                        "firstName": "Dagný",
+                        "lastName": "Brynjarsdóttir",
+                        "matchName": "D. Brynjarsdóttir",
+                        "shirtNumber": 10,
+                        "position": "Striker",
+                        "positionSide": "Centre",
+                        "formationPlace": "9",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "9"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "22"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "86"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "3"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "9"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "6vt2ev4niozpu1zrs8apyrwt1",
+                        "firstName": "Elín Metta",
+                        "lastName": "Jensen",
+                        "matchName": "E. Jensen",
+                        "shirtNumber": 16,
+                        "position": "Striker",
+                        "positionSide": "Centre/Right",
+                        "formationPlace": "10",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "11"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "13"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "2"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "71"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "2"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "10"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "4l0t0twvkms04gm3w3b2xvhsl",
+                        "firstName": "Berglind Ros",
+                        "lastName": "Agustsdottir",
+                        "matchName": "B. Agustsdottir",
+                        "shirtNumber": 19,
+                        "position": "Substitute",
+                        "subPosition": "Defender",
+                        "stat": [
+                            {
+                                "type": "totalPass",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "3"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "5f4cglhi9bgrwdqj27cgft39x",
+                        "firstName": "Agla María",
+                        "lastName": "Albertsdóttir",
+                        "matchName": "A. Albertsdóttir",
+                        "shirtNumber": 17,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "4"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "fu9ab6roj0yeyr7c0tizygut",
+                        "firstName": "Hildur",
+                        "lastName": "Antonsdóttir",
+                        "matchName": "H. Antonsdóttir",
+                        "shirtNumber": 15,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "6cs8qwc1exex8ik9w3nejnkyd",
+                        "firstName": "Sara",
+                        "lastName": "Björk Gunnarsdóttir",
+                        "matchName": "S. Gunnarsdóttir",
+                        "shirtNumber": 7,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "4y88tihssafjvxl809gs19nmx",
+                        "firstName": "Hlín",
+                        "lastName": "Eiríksdóttir",
+                        "matchName": "H. Eiríksdóttir",
+                        "shirtNumber": 14,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "dakakvems200aahpv29v22eol",
+                        "firstName": "Fanndís",
+                        "lastName": "Friðriksdóttir",
+                        "matchName": "F. Friðriksdóttir",
+                        "shirtNumber": 23,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "4"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "44p08essulk95whu21qdo6ggl",
+                        "firstName": "Svava Rós",
+                        "lastName": "Guðmundsdóttir",
+                        "matchName": "S. Guðmundsdóttir",
+                        "shirtNumber": 21,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "2"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "5"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "18"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "3yb4zwodejg6ohd9xippme0np",
+                        "firstName": "Sandra María",
+                        "lastName": "Jessen",
+                        "matchName": "S. Jessen",
+                        "shirtNumber": 18,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "3"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "8"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "19"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "2"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "el9fjsfi5zzerypanaa1wqoyd",
+                        "firstName": "Anna Rakel",
+                        "lastName": "Pétursdóttir",
+                        "matchName": "A. Pétursdóttir",
+                        "shirtNumber": 3,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "e3t63n6q1yrqbma82e0hc44p",
+                        "firstName": "Ingibjörg",
+                        "lastName": "Valgeirsdóttir",
+                        "matchName": "I. Valgeirsdóttir",
+                        "shirtNumber": 12,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "7wjcdkfckydb545bv6pybzavp",
+                        "firstName": "Elísa",
+                        "lastName": "Vidarsdóttir",
+                        "matchName": "E. Vidarsdóttir",
+                        "shirtNumber": 9,
+                        "position": "Substitute",
+                        "subPosition": "Defender",
+                        "stat": [
+                            {
+                                "type": "totalThrows",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "4"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "19"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ],
+                "teamOfficial": {
+                    "id": "67zsakryr5srq2u6j84hce1ux",
+                    "firstName": "Jón Þór",
+                    "lastName": "Hauksson",
+                    "type": "manager"
+                },
+                "stat": [
+                    {
+                        "fh": "76",
+                        "sh": "91",
+                        "type": "accuratePass",
+                        "value": "167"
+                    },
+                    {
+                        "fh": "2",
+                        "sh": "8",
+                        "type": "wonTackle",
+                        "value": "10"
+                    },
+                    {
+                        "fh": "4",
+                        "sh": "3",
+                        "type": "lostCorners",
+                        "value": "7"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "1",
+                        "type": "goalsConceded",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "5",
+                        "sh": "1",
+                        "type": "saves",
+                        "value": "6"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "4",
+                        "type": "totalScoringAtt",
+                        "value": "4"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "6",
+                        "type": "subsMade",
+                        "value": "6"
+                    },
+                    {
+                        "fh": "11",
+                        "sh": "11",
+                        "type": "totalThrows",
+                        "value": "22"
+                    },
+                    {
+                        "fh": "11",
+                        "sh": "5",
+                        "type": "goalKicks",
+                        "value": "16"
+                    },
+                    {
+                        "fh": "132",
+                        "sh": "165",
+                        "type": "totalPass",
+                        "value": "297"
+                    },
+                    {
+                        "fh": "3",
+                        "sh": "5",
+                        "type": "fkFoulWon",
+                        "value": "8"
+                    },
+                    {
+                        "fh": "3",
+                        "sh": "10",
+                        "type": "totalTackle",
+                        "value": "13"
+                    },
+                    {
+                        "fh": "2",
+                        "sh": "1",
+                        "type": "totalOffside",
+                        "value": "3"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "4",
+                        "type": "shotOffTarget",
+                        "value": "4"
+                    },
+                    {
+                        "fh": "7",
+                        "sh": "3",
+                        "type": "fkFoulLost",
+                        "value": "10"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "2",
+                        "type": "wonCorners",
+                        "value": "2"
+                    },
+                    {
+                        "fh": "28",
+                        "sh": "39.7",
+                        "type": "possessionPercentage",
+                        "value": "33.6"
+                    },
+                    {
+                        "fh": "19",
+                        "sh": "13",
+                        "type": "totalClearance",
+                        "value": "32"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "2",
+                        "type": "cornerTaken",
+                        "value": "2"
+                    },
+                    {
+                        "type": "formationUsed",
+                        "value": "343"
+                    }
+                ],
+                "kit": {
+                    "id": "3587",
+                    "colour1": "#FFFFFF",
+                    "type": "away"
+                }
+            }
+        ],
+        "matchDetailsExtra": {
+            "matchOfficial": [
+                {
+                    "id": "7skiqyz6hbuooxeyflx1d0sfd",
+                    "type": "Main",
+                    "firstName": "Zuzana",
+                    "lastName": "Valentová"
+                }
+            ]
+        }
+    }
+}

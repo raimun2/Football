@@ -1,0 +1,2359 @@
+{
+    "matchInfo": {
+        "id": "ctqvqemvpbbvrxabggqntb78q",
+        "coverageLevel": "13",
+        "date": "2019-06-04Z",
+        "time": "15:30:00Z",
+        "lastUpdated": "2020-04-24T21:24:06Z",
+        "nextMatchWinnerId": "bpu64y8nbdx7m4du4msh2xyei",
+        "description": "Japan U20 vs Korea Republic U20",
+        "sport": {
+            "id": "289u5typ3vp4ifwh5thalohmq",
+            "name": "Soccer"
+        },
+        "ruleset": {
+            "id": "35ld7tk5hxf5rfp44lpy0ymbq",
+            "name": "Youth"
+        },
+        "competition": {
+            "id": "6thk4rltubz0yjy35ru5dlo4x",
+            "name": "U20 World Cup",
+            "competitionCode": "UWC",
+            "competitionFormat": "International cup",
+            "country": {
+                "id": "7yasa43laq1nb2e6f8bfuvxed",
+                "name": "World"
+            }
+        },
+        "tournamentCalendar": {
+            "id": "9tnzaxfrchxplqy9v1tyrxcve",
+            "startDate": "2019-05-23Z",
+            "endDate": "2019-06-15Z",
+            "name": "2019 Poland"
+        },
+        "stage": {
+            "id": "73q71i3nv2erzjfry753snuju",
+            "formatId": "614sqb9421oaflw5mpvvm9uj9",
+            "startDate": "2019-06-02Z",
+            "endDate": "2019-06-04Z",
+            "name": "8th Finals"
+        },
+        "contestant": [
+            {
+                "id": "dcwbos9a4ewky1texbtz9sb5d",
+                "name": "Japan U20",
+                "shortName": "Japan",
+                "officialName": "Japan Under 20",
+                "code": "JPN",
+                "position": "home",
+                "country": {
+                    "id": "lxyibh89lpdc0bfian1nx0xq",
+                    "name": "Japan"
+                }
+            },
+            {
+                "id": "2csfzqowk5wdjyufr7jam8txd",
+                "name": "Korea Republic U20",
+                "shortName": "Korea Rep.",
+                "officialName": "Korea Republic Under 20",
+                "code": "KOR",
+                "position": "away",
+                "country": {
+                    "id": "4vzpxtqkiwx0puygnmayr74di",
+                    "name": "Korea Republic"
+                }
+            }
+        ],
+        "venue": {
+            "id": "58c8xutro2kz7gt48j2wlxmrj",
+            "neutral": "no",
+            "longName": "Arena Lublin",
+            "shortName": "Arena Lublin"
+        }
+    },
+    "liveData": {
+        "matchDetails": {
+            "periodId": 14,
+            "matchStatus": "Played",
+            "winner": "away",
+            "matchLengthMin": 96,
+            "matchLengthSec": 32,
+            "period": [
+                {
+                    "id": 1,
+                    "start": "2019-06-04T15:30:13Z",
+                    "end": "2019-06-04T16:18:15Z",
+                    "lengthMin": 48,
+                    "lengthSec": 2
+                },
+                {
+                    "id": 2,
+                    "start": "2019-06-04T16:33:39Z",
+                    "end": "2019-06-04T17:22:09Z",
+                    "lengthMin": 48,
+                    "lengthSec": 30
+                }
+            ],
+            "scores": {
+                "ht": {
+                    "home": 0,
+                    "away": 0
+                },
+                "ft": {
+                    "home": 0,
+                    "away": 1
+                },
+                "total": {
+                    "home": 0,
+                    "away": 1
+                }
+            }
+        },
+        "goal": [
+            {
+                "contestantId": "2csfzqowk5wdjyufr7jam8txd",
+                "periodId": 2,
+                "timeMin": 84,
+                "timeMinSec": "83:27",
+                "lastUpdated": "2020-04-16T10:14:51Z",
+                "type": "G",
+                "scorerId": "76c0dsll7wtkz65gs2s1kplgp",
+                "scorerName": "Oh Se-Hun",
+                "assistPlayerId": "tj2a0gde5dvwcho382mgsi22",
+                "assistPlayerName": "Choi Jun",
+                "optaEventId": "2055865910",
+                "homeScore": 0,
+                "awayScore": 1
+            }
+        ],
+        "card": [
+            {
+                "contestantId": "dcwbos9a4ewky1texbtz9sb5d",
+                "periodId": 1,
+                "timeMin": 22,
+                "timeMinSec": "21:18",
+                "lastUpdated": "2019-12-20T13:48:20Z",
+                "type": "YC",
+                "playerId": "rzxtat0t3okt8tikf5mvdxm2",
+                "playerName": "K. Fujimoto",
+                "optaEventId": "1622605564",
+                "cardReason": "Foul"
+            },
+            {
+                "contestantId": "2csfzqowk5wdjyufr7jam8txd",
+                "periodId": 1,
+                "timeMin": 36,
+                "timeMinSec": "35:31",
+                "lastUpdated": "2020-04-10T12:07:20Z",
+                "type": "YC",
+                "playerId": "defr7nrxpvzhqd1yty43r2v3d",
+                "playerName": "Lee Jae-Ik",
+                "optaEventId": "1621341240",
+                "cardReason": "Foul"
+            }
+        ],
+        "substitute": [
+            {
+                "contestantId": "2csfzqowk5wdjyufr7jam8txd",
+                "periodId": 2,
+                "timeMin": 46,
+                "timeMinSec": "45:00",
+                "lastUpdated": "2020-04-17T09:41:24Z",
+                "playerOnId": "9fg0am5mvsr9u9wu2m4nf9ii1",
+                "playerOnName": "Eom Won-Sang",
+                "playerOffId": "8w3iott2z63e0uniyn3kw56y2",
+                "playerOffName": "Lee Ji-Sol",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "2csfzqowk5wdjyufr7jam8txd",
+                "periodId": 2,
+                "timeMin": 63,
+                "timeMinSec": "62:40",
+                "lastUpdated": "2020-04-23T05:40:38Z",
+                "playerOnId": "72uvhqf52slu7tjs4r8djibmy",
+                "playerOnName": "Jeon Se-Jin",
+                "playerOffId": "57crjm6xjddalrzhmq2oa1yw9",
+                "playerOffName": "Cho Young-Wook",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "dcwbos9a4ewky1texbtz9sb5d",
+                "periodId": 2,
+                "timeMin": 68,
+                "timeMinSec": "67:10",
+                "lastUpdated": "2020-02-03T20:12:34Z",
+                "playerOnId": "8wq90yejo2ktnfuzrkju45all",
+                "playerOnName": "K. Nakamura",
+                "playerOffId": "76aseubxz7uxnirxoawfuki22",
+                "playerOffName": "Y. Goke",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "2csfzqowk5wdjyufr7jam8txd",
+                "periodId": 2,
+                "timeMin": 87,
+                "timeMinSec": "86:15",
+                "lastUpdated": "2019-06-04T17:15:01Z",
+                "playerOnId": "2zgac47mjf4fife5es00y4h9m",
+                "playerOnName": "Ko Jae-Hyun",
+                "playerOffId": "6sfxewwfrj3mz8w44ql8s8mp5",
+                "playerOffName": "Kim Jung-Min",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "dcwbos9a4ewky1texbtz9sb5d",
+                "periodId": 2,
+                "timeMin": 88,
+                "timeMinSec": "87:20",
+                "lastUpdated": "2020-04-10T10:06:09Z",
+                "playerOnId": "2n808wa0h841cn8xi78n21v8q",
+                "playerOnName": "T. Hara",
+                "playerOffId": "1dquu26kc4gorylrsz2b2erjd",
+                "playerOffName": "T. Suzuki",
+                "subReason": "Tactical"
+            },
+            {
+                "contestantId": "dcwbos9a4ewky1texbtz9sb5d",
+                "periodId": 2,
+                "timeMin": 88,
+                "timeMinSec": "87:30",
+                "lastUpdated": "2019-11-08T10:44:16Z",
+                "playerOnId": "d3aj0s7ozmpdbdtub8s5qo962",
+                "playerOnName": "S. Higashi",
+                "playerOffId": "rzxtat0t3okt8tikf5mvdxm2",
+                "playerOffName": "K. Fujimoto",
+                "subReason": "Tactical"
+            }
+        ],
+        "lineUp": [
+            {
+                "contestantId": "dcwbos9a4ewky1texbtz9sb5d",
+                "player": [
+                    {
+                        "playerId": "7j7c0l6xctuoauvg1tpni3ysp",
+                        "firstName": "Tomoya",
+                        "lastName": "Wakahara",
+                        "matchName": "T. Wakahara",
+                        "shirtNumber": 1,
+                        "position": "Goalkeeper",
+                        "positionSide": "Centre",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "12"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "saves",
+                                "value": "4"
+                            },
+                            {
+                                "type": "goalKicks",
+                                "value": "7"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "23"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "1dquu26kc4gorylrsz2b2erjd",
+                        "firstName": "Toichi",
+                        "lastName": "Suzuki",
+                        "matchName": "T. Suzuki",
+                        "shirtNumber": 15,
+                        "position": "Defender",
+                        "positionSide": "Left",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "35"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "1"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "3"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "6"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "45"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "88"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "3"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "3g3x2ws0npu7aa51h4nx7nazu",
+                        "firstName": "Yuki",
+                        "lastName": "Kobayashi",
+                        "matchName": "Y. Kobayashi",
+                        "shirtNumber": 3,
+                        "position": "Defender",
+                        "positionSide": "Left/Centre",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "51"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "2"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "57"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "2"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "4"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "6"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "1anl1jfwm7l4p3y0tmyvueiuh",
+                        "firstName": "Ayumu",
+                        "lastName": "Seko",
+                        "matchName": "A. Seko",
+                        "shirtNumber": 4,
+                        "position": "Defender",
+                        "positionSide": "Centre/Right",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "50"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "55"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "3"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "5"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "ad2qplv0aa66l11ipq6yh0hd5",
+                        "firstName": "Yukinari",
+                        "lastName": "Sugawara",
+                        "matchName": "Y. Sugawara",
+                        "shirtNumber": 5,
+                        "position": "Defender",
+                        "positionSide": "Right",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "31"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "1"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "7"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "48"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "c1bmg5i86q1qye115yyz4qvah",
+                        "firstName": "Mitsuki",
+                        "lastName": "Saito",
+                        "matchName": "M. Saito",
+                        "shirtNumber": 10,
+                        "position": "Defensive Midfielder",
+                        "positionSide": "Left/Centre",
+                        "stat": [
+                            {
+                                "type": "blockedScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "accuratePass",
+                                "value": "53"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "3"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "61"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "3"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "2"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "rzxtat0t3okt8tikf5mvdxm2",
+                        "firstName": "Kanya",
+                        "lastName": "Fujimoto",
+                        "matchName": "K. Fujimoto",
+                        "shirtNumber": 8,
+                        "position": "Defensive Midfielder",
+                        "positionSide": "Centre/Right",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "46"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "yellowCard",
+                                "value": "1"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "55"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "88"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cornerTaken",
+                                "value": "4"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "8"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "3n5ebr69aqovbxiw13g2zymeh",
+                        "firstName": "Kota",
+                        "lastName": "Yamada",
+                        "matchName": "K. Yamada",
+                        "shirtNumber": 16,
+                        "position": "Attacking Midfielder",
+                        "positionSide": "Left",
+                        "stat": [
+                            {
+                                "type": "blockedScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "accuratePass",
+                                "value": "27"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "1"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "37"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "3"
+                            },
+                            {
+                                "type": "cornerTaken",
+                                "value": "3"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "11"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "76aseubxz7uxnirxoawfuki22",
+                        "firstName": "Yuta",
+                        "lastName": "Goke",
+                        "matchName": "Y. Goke",
+                        "shirtNumber": 6,
+                        "position": "Attacking Midfielder",
+                        "positionSide": "Centre",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "23"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "27"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "68"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "10"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "ey5f9ve8nitrasavs98v01coa",
+                        "firstName": "Jun",
+                        "lastName": "Nishikawa",
+                        "matchName": "J. Nishikawa",
+                        "shirtNumber": 14,
+                        "position": "Attacking Midfielder",
+                        "positionSide": "Right",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "15"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "20"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "5"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "7"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "3h1911weob775j3n3r77gjlrd",
+                        "firstName": "Taisei",
+                        "lastName": "Miyashiro",
+                        "matchName": "T. Miyashiro",
+                        "shirtNumber": 13,
+                        "position": "Striker",
+                        "positionSide": "Centre",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "23"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "3"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "29"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "9"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "2n808wa0h841cn8xi78n21v8q",
+                        "firstName": "Taichi",
+                        "lastName": "Hara",
+                        "matchName": "T. Hara",
+                        "shirtNumber": 18,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "d3aj0s7ozmpdbdtub8s5qo962",
+                        "firstName": "Shunki",
+                        "lastName": "Higashi",
+                        "matchName": "S. Higashi",
+                        "shirtNumber": 2,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "totalThrows",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cornerTaken",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "8p2yagsx6ujdbmeonkd3u4c89",
+                        "firstName": "Hiroki",
+                        "lastName": "Ito",
+                        "matchName": "H. Ito",
+                        "shirtNumber": 7,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "9qugefy6toogpl37zi90s9uy1",
+                        "firstName": "Hinata",
+                        "lastName": "Kida",
+                        "matchName": "H. Kida",
+                        "shirtNumber": 19,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "e7eqz8gzhxdfdkiwbd8dkrz3e",
+                        "firstName": "Kennedyegbus",
+                        "lastName": "Mikuni",
+                        "matchName": "K. Mikuni",
+                        "shirtNumber": 17,
+                        "position": "Substitute",
+                        "subPosition": "Defender",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "4loa84z6smw1d4uk884hfmmzt",
+                        "firstName": "Shu",
+                        "lastName": "Mogi",
+                        "matchName": "S. Mogi",
+                        "shirtNumber": 12,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "8wq90yejo2ktnfuzrkju45all",
+                        "firstName": "Keito",
+                        "lastName": "Nakamura",
+                        "matchName": "K. Nakamura",
+                        "shirtNumber": 20,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "blockedScoringAtt",
+                                "value": "2"
+                            },
+                            {
+                                "type": "accuratePass",
+                                "value": "2"
+                            },
+                            {
+                                "type": "goalsConceded",
+                                "value": "1"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "2"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "22"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "2mfunwzltzdnmzlcjyvx752i",
+                        "firstName": "Zion",
+                        "lastName": "Suzuki",
+                        "matchName": "Z. Suzuki",
+                        "shirtNumber": 21,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ],
+                "teamOfficial": {
+                    "id": "daa4refnxb9hogarnlydq3zkl",
+                    "firstName": "Masanaga",
+                    "lastName": "Kageyama",
+                    "type": "manager"
+                },
+                "stat": [
+                    {
+                        "fh": "1",
+                        "sh": "3",
+                        "type": "blockedScoringAtt",
+                        "value": "4"
+                    },
+                    {
+                        "fh": "305",
+                        "sh": "63",
+                        "type": "accuratePass",
+                        "value": "368"
+                    },
+                    {
+                        "fh": "7",
+                        "sh": "4",
+                        "type": "wonTackle",
+                        "value": "11"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "7",
+                        "type": "lostCorners",
+                        "value": "7"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "1",
+                        "type": "goalsConceded",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "1",
+                        "sh": "3",
+                        "type": "saves",
+                        "value": "4"
+                    },
+                    {
+                        "fh": "1",
+                        "sh": "2",
+                        "type": "ontargetScoringAtt",
+                        "value": "3"
+                    },
+                    {
+                        "fh": "5",
+                        "sh": "7",
+                        "type": "totalScoringAtt",
+                        "value": "12"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "3",
+                        "type": "subsMade",
+                        "value": "3"
+                    },
+                    {
+                        "fh": "8",
+                        "sh": "6",
+                        "type": "totalThrows",
+                        "value": "14"
+                    },
+                    {
+                        "fh": "1",
+                        "sh": "0",
+                        "type": "totalYellowCard",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "2",
+                        "sh": "5",
+                        "type": "goalKicks",
+                        "value": "7"
+                    },
+                    {
+                        "fh": "345",
+                        "sh": "115",
+                        "type": "totalPass",
+                        "value": "460"
+                    },
+                    {
+                        "fh": "6",
+                        "sh": "6",
+                        "type": "fkFoulWon",
+                        "value": "12"
+                    },
+                    {
+                        "fh": "9",
+                        "sh": "6",
+                        "type": "totalTackle",
+                        "value": "15"
+                    },
+                    {
+                        "fh": "2",
+                        "sh": "2",
+                        "type": "totalOffside",
+                        "value": "4"
+                    },
+                    {
+                        "fh": "3",
+                        "sh": "2",
+                        "type": "shotOffTarget",
+                        "value": "5"
+                    },
+                    {
+                        "fh": "12",
+                        "sh": "10",
+                        "type": "fkFoulLost",
+                        "value": "22"
+                    },
+                    {
+                        "fh": "3",
+                        "sh": "5",
+                        "type": "wonCorners",
+                        "value": "8"
+                    },
+                    {
+                        "fh": "73.6",
+                        "sh": "41.3",
+                        "type": "possessionPercentage",
+                        "value": "61.1"
+                    },
+                    {
+                        "fh": "1",
+                        "sh": "13",
+                        "type": "totalClearance",
+                        "value": "14"
+                    },
+                    {
+                        "fh": "3",
+                        "sh": "5",
+                        "type": "cornerTaken",
+                        "value": "8"
+                    },
+                    {
+                        "type": "formationUsed",
+                        "value": "4231"
+                    }
+                ],
+                "kit": {
+                    "id": "3551",
+                    "colour1": "#000033",
+                    "type": "home"
+                }
+            },
+            {
+                "contestantId": "2csfzqowk5wdjyufr7jam8txd",
+                "player": [
+                    {
+                        "playerId": "byv2xgoetylx6ow3yrshm4q2",
+                        "firstName": "Gwang-Yeon",
+                        "lastName": "Lee",
+                        "matchName": "Lee Gwang-Yeon",
+                        "shirtNumber": 1,
+                        "position": "Goalkeeper",
+                        "positionSide": "Centre",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "14"
+                            },
+                            {
+                                "type": "saves",
+                                "value": "2"
+                            },
+                            {
+                                "type": "goalKicks",
+                                "value": "7"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "21"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "defr7nrxpvzhqd1yty43r2v3d",
+                        "firstName": "Jae-Ik",
+                        "lastName": "Lee",
+                        "matchName": "Lee Jae-Ik",
+                        "shirtNumber": 3,
+                        "position": "Defender",
+                        "positionSide": "Left/Centre",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "23"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "yellowCard",
+                                "value": "1"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "2"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "32"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "5"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "9tiu7146tyw2qyckn8rsgxjsa",
+                        "firstName": "Hyun-Woo",
+                        "lastName": "Kim",
+                        "matchName": "Kim Hyun-Woo",
+                        "shirtNumber": 5,
+                        "position": "Defender",
+                        "positionSide": "Centre",
+                        "stat": [
+                            {
+                                "type": "blockedScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "accuratePass",
+                                "value": "22"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "30"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "5"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "5"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "8w3iott2z63e0uniyn3kw56y2",
+                        "firstName": "Ji-Sol",
+                        "lastName": "Lee",
+                        "matchName": "Lee Ji-Sol",
+                        "shirtNumber": 4,
+                        "position": "Defender",
+                        "positionSide": "Centre/Right",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "8"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "13"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "45"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "2"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "6"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "tj2a0gde5dvwcho382mgsi22",
+                        "firstName": "Jun",
+                        "lastName": "Choi",
+                        "matchName": "Choi Jun",
+                        "shirtNumber": 19,
+                        "position": "Wing Back",
+                        "positionSide": "Left",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "19"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "3"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "12"
+                            },
+                            {
+                                "type": "goalAssist",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "27"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "3"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "2"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "3"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "5re1eb58ad7jr0ztdwg6po1yh",
+                        "firstName": "Tae-Hyeon",
+                        "lastName": "Hwang",
+                        "matchName": "Hwang Tae-Hyeon",
+                        "shirtNumber": 2,
+                        "position": "Wing Back",
+                        "positionSide": "Right",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "13"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "1"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalThrows",
+                                "value": "11"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "17"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "7"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "57crjm6xjddalrzhmq2oa1yw9",
+                        "firstName": "Young-Wook",
+                        "lastName": "Cho",
+                        "matchName": "Cho Young-Wook",
+                        "shirtNumber": 18,
+                        "position": "Midfielder",
+                        "positionSide": "Left/Centre",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "8"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "13"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "3"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "63"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "11"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "43pvx6l6oxq3saz9ye2zwae7e",
+                        "firstName": "Ho-Jin",
+                        "lastName": "Jeong",
+                        "matchName": "Jeong Ho-Jin",
+                        "shirtNumber": 15,
+                        "position": "Midfielder",
+                        "positionSide": "Centre",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "14"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "3"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "20"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "8"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "6sfxewwfrj3mz8w44ql8s8mp5",
+                        "firstName": "Jung-Min",
+                        "lastName": "Kim",
+                        "matchName": "Kim Jung-Min",
+                        "shirtNumber": 6,
+                        "position": "Midfielder",
+                        "positionSide": "Centre/Right",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "20"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "1"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalSubOff",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "28"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "87"
+                            },
+                            {
+                                "type": "totalClearance",
+                                "value": "2"
+                            },
+                            {
+                                "type": "cornerTaken",
+                                "value": "3"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "7"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "76c0dsll7wtkz65gs2s1kplgp",
+                        "firstName": "Se-Hun",
+                        "lastName": "Oh",
+                        "matchName": "Oh Se-Hun",
+                        "shirtNumber": 9,
+                        "position": "Striker",
+                        "positionSide": "Left/Centre",
+                        "stat": [
+                            {
+                                "type": "blockedScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "accuratePass",
+                                "value": "17"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "3"
+                            },
+                            {
+                                "type": "ontargetScoringAtt",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "3"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "25"
+                            },
+                            {
+                                "type": "goals",
+                                "value": "1"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "9"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "8b3igmuipfhfzm39ack89de96",
+                        "firstName": "Kang-In",
+                        "lastName": "Lee",
+                        "matchName": "Lee Kang-In",
+                        "shirtNumber": 10,
+                        "position": "Striker",
+                        "positionSide": "Centre/Right",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "25"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "34"
+                            },
+                            {
+                                "type": "gameStarted",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "cleanSheet",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "2"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "90"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "2"
+                            },
+                            {
+                                "type": "cornerTaken",
+                                "value": "4"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "10"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "9kw7qegvxyr2kuy0tkk9sw8dm",
+                        "firstName": "Minh-Soo",
+                        "lastName": "Choi",
+                        "matchName": "Choi Minh-Soo",
+                        "shirtNumber": 21,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "9fg0am5mvsr9u9wu2m4nf9ii1",
+                        "firstName": "Won-Sang",
+                        "lastName": "Eom",
+                        "matchName": "Eom Won-Sang",
+                        "shirtNumber": 11,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "9"
+                            },
+                            {
+                                "type": "wasFouled",
+                                "value": "2"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "13"
+                            },
+                            {
+                                "type": "totalOffside",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "wonCorners",
+                                "value": "3"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "45"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "72uvhqf52slu7tjs4r8djibmy",
+                        "firstName": "Se-Jin",
+                        "lastName": "Jeon",
+                        "matchName": "Jeon Se-Jin",
+                        "shirtNumber": 7,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "8"
+                            },
+                            {
+                                "type": "wonTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "lostCorners",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalScoringAtt",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "10"
+                            },
+                            {
+                                "type": "totalTackle",
+                                "value": "1"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "shotOffTarget",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "27"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "15lc9nb9h2r2e9qvh4es27q7e",
+                        "firstName": "Joo-Sung",
+                        "lastName": "Kim",
+                        "matchName": "Kim Joo-Sung",
+                        "shirtNumber": 16,
+                        "position": "Substitute",
+                        "subPosition": "Defender",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "bowlc3vzao0b3tn8l9lgx2tey",
+                        "firstName": "Se-Yun",
+                        "lastName": "Kim",
+                        "matchName": "Kim Se-Yun",
+                        "shirtNumber": 20,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "2zgac47mjf4fife5es00y4h9m",
+                        "firstName": "Jae-Hyun",
+                        "lastName": "Ko",
+                        "matchName": "Ko Jae-Hyun",
+                        "shirtNumber": 13,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "accuratePass",
+                                "value": "4"
+                            },
+                            {
+                                "type": "totalPass",
+                                "value": "4"
+                            },
+                            {
+                                "type": "totalSubOn",
+                                "value": "1"
+                            },
+                            {
+                                "type": "minsPlayed",
+                                "value": "3"
+                            },
+                            {
+                                "type": "fouls",
+                                "value": "1"
+                            },
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "8ib8yy6cbvjcp2lyrfqp6aelm",
+                        "firstName": "Kyu-Hyuk",
+                        "lastName": "Lee",
+                        "matchName": "Lee Kyu-Hyuk",
+                        "shirtNumber": 8,
+                        "position": "Substitute",
+                        "subPosition": "Defender",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "c31nnwtanqe7wqs0bdkys3rl6",
+                        "firstName": "Sang-Jun",
+                        "lastName": "Lee",
+                        "matchName": "Lee Sang-Jun",
+                        "shirtNumber": 17,
+                        "position": "Substitute",
+                        "subPosition": "Attacker",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "84tjz2hwcfkxefw7u49n1q6wa",
+                        "firstName": "Ji-Min",
+                        "lastName": "Park",
+                        "matchName": "Park Ji-Min",
+                        "shirtNumber": 12,
+                        "position": "Substitute",
+                        "subPosition": "Goalkeeper",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "playerId": "dvav4bcybbb1bjahm71cbtppm",
+                        "firstName": "Tae-Jun",
+                        "lastName": "Park",
+                        "matchName": "Park Tae-Jun",
+                        "shirtNumber": 14,
+                        "position": "Substitute",
+                        "subPosition": "Midfielder",
+                        "stat": [
+                            {
+                                "type": "formationPlace",
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ],
+                "teamOfficial": {
+                    "id": "d4fmbkooopp7s8d1iigz3qctm",
+                    "firstName": "Jung-Yong",
+                    "lastName": "Chung",
+                    "type": "manager"
+                },
+                "stat": [
+                    {
+                        "fh": "0",
+                        "sh": "2",
+                        "type": "blockedScoringAtt",
+                        "value": "2"
+                    },
+                    {
+                        "fh": "84",
+                        "sh": "120",
+                        "type": "accuratePass",
+                        "value": "204"
+                    },
+                    {
+                        "fh": "5",
+                        "sh": "3",
+                        "type": "wonTackle",
+                        "value": "8"
+                    },
+                    {
+                        "fh": "3",
+                        "sh": "5",
+                        "type": "lostCorners",
+                        "value": "8"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "2",
+                        "type": "saves",
+                        "value": "2"
+                    },
+                    {
+                        "fh": "1",
+                        "sh": "3",
+                        "type": "ontargetScoringAtt",
+                        "value": "4"
+                    },
+                    {
+                        "fh": "2",
+                        "sh": "9",
+                        "type": "totalScoringAtt",
+                        "value": "11"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "3",
+                        "type": "subsMade",
+                        "value": "3"
+                    },
+                    {
+                        "fh": "8",
+                        "sh": "15",
+                        "type": "totalThrows",
+                        "value": "23"
+                    },
+                    {
+                        "fh": "1",
+                        "sh": "0",
+                        "type": "totalYellowCard",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "4",
+                        "sh": "3",
+                        "type": "goalKicks",
+                        "value": "7"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "1",
+                        "type": "goalAssist",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "127",
+                        "sh": "160",
+                        "type": "totalPass",
+                        "value": "287"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "1",
+                        "type": "goals",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "11",
+                        "sh": "10",
+                        "type": "fkFoulWon",
+                        "value": "21"
+                    },
+                    {
+                        "fh": "8",
+                        "sh": "6",
+                        "type": "totalTackle",
+                        "value": "14"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "2",
+                        "type": "totalOffside",
+                        "value": "2"
+                    },
+                    {
+                        "type": "cleanSheet",
+                        "value": "1"
+                    },
+                    {
+                        "fh": "1",
+                        "sh": "4",
+                        "type": "shotOffTarget",
+                        "value": "5"
+                    },
+                    {
+                        "fh": "6",
+                        "sh": "6",
+                        "type": "fkFoulLost",
+                        "value": "12"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "7",
+                        "type": "wonCorners",
+                        "value": "7"
+                    },
+                    {
+                        "fh": "26.4",
+                        "sh": "58.7",
+                        "type": "possessionPercentage",
+                        "value": "38.9"
+                    },
+                    {
+                        "fh": "13",
+                        "sh": "10",
+                        "type": "totalClearance",
+                        "value": "23"
+                    },
+                    {
+                        "fh": "0",
+                        "sh": "7",
+                        "type": "cornerTaken",
+                        "value": "7"
+                    },
+                    {
+                        "type": "formationUsed",
+                        "value": "532"
+                    }
+                ],
+                "kit": {
+                    "id": "3509",
+                    "colour1": "#FF0000",
+                    "type": "home"
+                }
+            }
+        ],
+        "matchDetailsExtra": {
+            "attendance": "10021",
+            "matchOfficial": [
+                {
+                    "id": "2zyay295bqq1pbusiz298v7px",
+                    "type": "Main",
+                    "firstName": "Maguette",
+                    "lastName": "Ndiaye"
+                },
+                {
+                    "id": "5zg1766knvby6u01v4iwztuxh",
+                    "type": "Lineman 1",
+                    "firstName": "Elvis Guy",
+                    "lastName": "Noupue Nguegoue"
+                },
+                {
+                    "id": "c8jdtw5huoefukq4ilo15q6t",
+                    "type": "Lineman 2",
+                    "firstName": "Seydou",
+                    "lastName": "Tiama"
+                },
+                {
+                    "id": "957lr4vodw0rsyput2cil8amt",
+                    "type": "Fourth official",
+                    "firstName": "Kader",
+                    "lastName": "Zitouni"
+                }
+            ]
+        }
+    }
+}
