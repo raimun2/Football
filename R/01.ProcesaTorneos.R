@@ -150,7 +150,7 @@ df_managers  <- df_managers %>% replace(is.na(.), 0)
 
 ## elimino variables auxiliares
 rm(arbitros, cambios, dtecnico, goals, jugador, livedata, matchinfo, partido, penales, player, stat, statsteam_h, tarjetas, VAR)
-rm(i, jug, npartidos, team, torneo, partidos)
+rm(i, jug, npartidos, team, torneo, partidos, partidoi)
 
 ## cambio variables a numericas
 df_jugadores <-  df_jugadores %>% relocate(position)
