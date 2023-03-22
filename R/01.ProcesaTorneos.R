@@ -20,11 +20,14 @@ for(torneo in torneos){ #recorro los torneos
   npartidos <- length(partidos)
   
   for (i in 1:npartidos){  #recorro los partidos del torneo
-    partidoi <- read_json(paste0("/data/",torneo,"/Partidos/",partidos[i])) ## leo el partido i
+    partidoi <- read_json(paste0("data/",torneo,"/Partidos/",partidos[i])) ## leo el partido i
     
     ## extrae datos del partido
     matchinfo <- partidoi$matchInfo
     livedata <- partidoi$liveData
+    
+    df <- data.frame(Reduce(rbind, matchinfo))
+
     
     ##### extraigo estadisticas de livedata que estan por equipo     ##### 
     for(team in 1:2){
@@ -52,14 +55,29 @@ for(torneo in torneos){ #recorro los torneos
         for(jug in 1:length(livedata$lineUp[[team]]$player)){
           player <- livedata$lineUp[[team]]$player[[jug]]
           
-          stat              <- player$stat
-          player$stat       <- NULL
-          jugador           <- as.data.frame(player)
-          jugador$equipo     <- matchinfo$contestant[[team]]$name
-          jugador$id_partido <- matchinfo$id
+          stat <- NULL
           
+          if(!is.null(player$stat)){
+            stat <-  as.data.frame(matrix(unlist(player$stat),nrow=2))
+            
+            colnames(stat) <- stat[1,]
+            
+            stat <- stat[2,]
+            
+          }
+          
+          player$stat <- NULL
+          
+          jugador <-
+            player %>% 
+            as.data.frame() %>% 
+            mutate(equipo = matchinfo$contestant[[team]]$name,
+                   id_partido = matchinfo$id) %>% 
+            bind_cols(stat)
+            
+  
           df_jugadores <- rbind.fill(df_jugadores, jugador)    
-        }
+          }
       }
       dtecnico <- as.data.frame(livedata$lineUp[[team]]$teamOfficial)
       if(nrow(dtecnico)>0){
@@ -153,12 +171,10 @@ rm(arbitros, cambios, dtecnico, goals, jugador, livedata, matchinfo, partido, pe
 rm(i, jug, npartidos, team, torneo, partidos, partidoi)
 
 ## cambio variables a numericas
-df_jugadores <-  df_jugadores %>% relocate(position)
-df_jugadores[,9:ncol(df_jugadores)] <- sapply(df_jugadores[,9:ncol(df_jugadores)],as.numeric)  
+#df_jugadores <-  df_jugadores %>% relocate(position)
+#df_jugadores[,9:ncol(df_jugadores)] <- sapply(df_jugadores[,9:ncol(df_jugadores)],as.numeric)  
 
-df_tiempos[,8:ncol(df_tiempos)] <- sapply(df_tiempos[,8:ncol(df_tiempos)],as.numeric)
-
-
+#df_tiempos[,8:ncol(df_tiempos)] <- sapply(df_tiempos[,8:ncol(df_tiempos)],as.numeric)
 
 
 ## guardo datos procesados
